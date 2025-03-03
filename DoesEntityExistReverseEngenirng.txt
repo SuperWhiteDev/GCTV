@@ -1,0 +1,5 @@
+GTA5.exe+163BA74  Check if is entity - function
+*(GTA5.exe+2F25118) - array of instances(entities, objects, vehicles, peds)
+
+
+*(*(GTA5.exe+2F25118) + 0x8) - array of entities

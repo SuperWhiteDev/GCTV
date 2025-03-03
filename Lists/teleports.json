@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Meth Lab",
+        "x": "202.99984741211",
+        "y": "2459.3088378906",
+        "z": "55.754428863525",
+        "zone": "Grand Senora Desert"
+    },
+    {
+        "name": "Cayo perico",
+        "x": "4461.9301757812",
+        "y": "-4501.4145507812",
+        "z": "4.1883206367493",
+        "zone": "Cayo Perico Island"
+    },
+    {
+        "name": "Ferris wheel",
+        "x": "-1688.658203125",
+        "y": "-1130.1275634766",
+        "z": "13.152235031128",
+        "zone": "Del Perro Beach"
+    },
+    {
+        "name": "Unknown Place ",
+        "x": "-922.19000244141",
+        "y": "-2721.087890625",
+        "z": "13.818151473999",
+        "zone": "Los Santos International Airport"
+    }
+]
