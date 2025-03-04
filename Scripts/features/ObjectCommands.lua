@@ -171,7 +171,7 @@ function ObjectControlCommand()
 end
 
 
--- Определим словарь с командами и их функциями
+-- Define a dictionary with commands and their functions
 local Commands = {
     ["object list"] = ObjectListCommand,
     ["add to object list"] = AddToObjectListCommand,
@@ -183,7 +183,7 @@ local Commands = {
 
 math.randomseed(os.time())
 
--- Цикл для регистрации команд
+-- Loop for registering commands
 for commandName, commandFunction in pairs(Commands) do
     if not BindCommand(commandName, commandFunction) then
         DisplayError(true, "Failed to register the command: " .. commandName)

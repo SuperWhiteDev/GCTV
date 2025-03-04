@@ -32,7 +32,7 @@ function InitializeSettings()
     SetGlobalVariableValue("AerialReconnaissanceDroneMissilesCount", DroneMissilesCount)
 end
 
--- Определим словарь с командами и их функциями
+-- Define a dictionary with commands and their functions
 local Commands = {
     ["aerial reconnaissance drone"] = AerialReconnaissanceDroneCommand,
     ["ard"] = AerialReconnaissanceDroneCommand,
@@ -43,7 +43,7 @@ math.randomseed(os.time())
 
 InitializeSettings()
 
--- Цикл для регистрации команд
+-- Loop for registering commands
 for commandName, commandFunction in pairs(Commands) do
     if not BindCommand(commandName, commandFunction) then
         DisplayError(true, "Failed to register the command: " .. commandName)

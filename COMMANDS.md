@@ -2,38 +2,77 @@
 
 - **`teleport`**: This function allows you to teleport to a selected position.
 - **`save current place`**: This function saves the current position of the player so that you can teleport to it with the `teleport` command.
-- **`give weapon`**: This function asks you for the name of the weapon model you want to get and gives it to you (only in singleplayer).
-- **`add ammo`**: This function adds the specified number of rounds to the current weapon (only in singleplayer).
+- **`give weapon`**: This function asks you for the name of the weapon model you want to get and gives it to you.
+- **`give all weapons`**: This function gives the player all available weapons.
+- **`give max ammo`**: This function adds the specified number of rounds to the current weapon.
+- **`give all ammo`**: This function adds the maximum amount of ammunition to all available weapons.
 - **`set infinity ammo`**: This function sets infinite ammunition for the weapon.
 - **`set infinity clip`**: This function sets infinite ammunition in the weapon clip.
-- **`clean weapon`**: This function cleans the player's current weapon.
+- **`hide weapon`**: This function cleans the player's current weapon.
 - **`get entity aiming for`**: This function loops until the Escape key is pressed and displays the ID of the entity the player is aiming at.
-- **`explosive ammo`**: This function makes all your bullets explosive.
-- **`fire ammo`**: This function makes all your bullets incendiary.
-- **`rapid fire`**: This function doubles the number of bullets fired from a weapon.
-- **`vehicles`**: This function provides the ability to manage all created vehicles.
-- **`add vehicle to list`**: This function adds a vehicle by its ID to the list of vehicles.
+- **`vehicle list`**: This function displays a list of all created vehicles.
+- **`modified vehicles`**: This function displays a list of all modified vehicles.
+- **`add to vehicle list`**: This function adds a vehicle by its ID to the list of vehicles.
 - **`create vehicle`**: You can create a vehicle with this function.
+- **`delete vehicle`**: This function deletes the selected vehicle.
+- **`explode vehicle`**: This function explodes the selected vehicle.
 - **`fix vehicle`**: This function repairs the vehicle the player is in.
-- **`peds`**: This function provides the ability to manage all created peds and horses.
-- **`add ped to list`**: This function adds a ped by its ID to the list of peds.
+- **`vehicle tuning`**: This function allows tuning the vehicle.
+- **`vehicle control`**: This function allows controlling the vehicle.
+- **`vehicle mod`**: This function allows modifying the vehicle.
+- **`set veh invincible`**: This function makes the vehicle invincible.
+- **`set vehicle lock on`**: This function disables guided missile targeting for players.
+- **`save vehicle`**: This function saves the current vehicle.
+- **`create saved vehicle`**: This function creates a saved vehicle.
+- **`view all vehicles`**: This function displays all created vehicles.
+- **`ped list`**: This function displays all created peds.
+- **`delete ped`**: This function deletes the selected ped.
 - **`create ped`**: You can create a ped with this function.
-- **`create horse`**: You can create a horse with this function.
-- **`bodyguards`**: This function provides the ability to manage all created bodyguards.
-- **`create bodyguard`**: You can create a bodyguard with this function.
-- **`objects`**: This function provides the ability to manage all created objects.
-- **`add object to list`**: This function adds an object by its ID to the list of objects.
+- **`ped control`**: You can control a ped with this function.
+- **`create ped in veh`**: This function creates a ped in a vehicle.
+- **`create bodyguard`**: You can create a ped bodyguard with this function.
+- **`view all peds`**: This function displays all created peds.
+- **`object list`**: This function provides the ability to manage all created objects.
+- **`add to object list`**: This function adds an object by its ID to the list of objects.
 - **`create object`**: You can create an object with this function.
-- **`drop one gold`**: This function gives one gold bar.
-- **`drop gold`**: This function will give bars of gold for a specified period of time.
+- **`create object at`**: This function creates an object at a specified position.
+- **`delete object`**: This function deletes the selected object.
+- **`object control`**: This function allows controlling the object.
 - **`set time`**: This function sets the time in the game.
 - **`set weather`**: This function sets the weather in the game.
 - **`set wind speed`**: This function sets the wind speed in the game.
 - **`set snow`**: This function applies snow throughout the game world.
-- **`freeze time`**: This function stops the time change.
-- **`freeze weather`**: This function stops the weather from changing.
-- **`save model`**: This function saves the player's model.
-- **`change model`**: This function changes the player's model.
-- **`outfit`**: This function allows you to select an outfit for the player.
-- **`god mode`**: This function makes the player invincible.
-- **`auto heal`**: This function automatically restores the player's health when he loses more than half of it.
+- **`bomb area`**: This function drops bombs on the specified area.
+- **`attack entity`**: This function will spawn peds next to the target that will attack it.
+- **`noclip`**: This function allows the player to move through objects.
+- **`set noclip speed`**: This function sets the speed of movement in noclip mode.
+- **`players`**: This function displays a list of all players.
+- **`players info`**: This function displays information about all players.
+- **`get player vehicle`**: This function displays the vehicle the selected player is in.
+- **`get player position`**: This function displays the position of the selected player.
+- **`get player speed`**: This function displays the speed of the selected player.
+- **`kick player`**: This function kicks the selected player out of the session(only host).
+- **`explode player`**: This function explodes the selected player.
+- **`freeze player`**: This function freezes the selected player.
+- **`shake player cam`**: This function shakes the camera of the selected player.
+- **`spectate player`**: This function allows you to spectate the selected player.
+- **`player`**: This function displays information about the current player.
+- **`outfit`**: This function displays the current outfit of the player.
+- **`save outfit`**: This function saves the current outfit of the player.
+- **`clone player`**: This function clones the current player.
+- **`clean player`**: This function cleans the current player from blood and dirt.
+- **`suicide`**: This function makes the current player commit suicide.
+- **`never wanted`**: This function removes the wanted level of the current player.
+- **`set player wanted`**: This function sets the wanted level for the current player.
+- **`set player invincible`**: This function makes the current player invincible.
+- **`set player seatbelt`**: This function buckles the seatbelt for the current player.
+- **`enter in veh`**: This function makes the current player enter a vehicle.
+- **`mobile radio`**: This function allows the player to turn on the radio on a mobile device.
+- **`next radio track`**: This function skips to the next radio track.
+- **`lock radio station`**: This function locks the current radio station.
+- **`set radio track`**: This function sets a specific track on the radio.
+- **`lock radio track`**: This function locks the current radio track.
+- **`draw esp line`**: This function draws an ESP line to the selected entity.
+- **`disable esp line`**: This function disables the ESP line.
+- **`aerial reconnaissance drone or ard`**: This function allows controlling an aerial reconnaissance drone.
+- **`set ard missiles count`**: This function sets the number of missiles for the aerial reconnaissance drone.

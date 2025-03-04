@@ -17,7 +17,6 @@ function DrawEspLine(entity)
     GRAPHICS.DRAW_LINE(localPlayerCoords.x, localPlayerCoords.y, localPlayerCoords.z, targetEntityCoords.x, targetEntityCoords.y, targetEntityCoords.z, 255, 0, 0, 255)
 end
 
--- Получаем и выводим значения из таблицы
 function OnTick()
     local playerTargets = GetGlobalVariableTable("EsplinePlayerTargets")
     for i = 1, #playerTargets do

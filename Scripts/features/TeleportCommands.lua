@@ -93,14 +93,6 @@ end
 function SaveCurrentPlaceCommand()
     local savedplaces = JsonReadList("teleports.json")
     
-    --[[for i = 1, #savedplaces do
-        local element = savedplaces[i]
-        print("Name:", element.name)
-        print("Address:", element.address)
-        print("Namespace:", element.namespace)
-    end
-    ]]
-
     io.write("Enter a name for the current location: ")
     local locatioName = io.read()
 
@@ -111,7 +103,7 @@ function SaveCurrentPlaceCommand()
 end
 
 
--- Определим словарь с командами и их функциями
+-- Define a dictionary with commands and their functions
 local Commands = {
     ["teleport"] = TeleportCommand,
     ["save current place"] = SaveCurrentPlaceCommand
@@ -119,7 +111,7 @@ local Commands = {
 
 math.randomseed(os.time())
 
--- Цикл для регистрации команд
+-- Loop for registering commands
 for commandName, commandFunction in pairs(Commands) do
     if not BindCommand(commandName, commandFunction) then
         DisplayError(true, "Failed to register the command: " .. commandName)

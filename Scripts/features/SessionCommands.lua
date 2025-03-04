@@ -5,14 +5,14 @@ end
 --NETWORK_PLAYER_GET_USERID its get rockstar ID
 --NETWORK_SEND_TEXT_MESSAGE need to test
 
--- Определим словарь с командами и их функциями
+-- Define a dictionary with commands and their functions
 local Commands = {
     ["leave session"] = LeaveSessionCommand
 }
 
 math.randomseed(os.time())
 
--- Цикл для регистрации команд
+-- Loop for registering commands
 for commandName, commandFunction in pairs(Commands) do
     if not BindCommand(commandName, commandFunction) then
         DisplayError(true, "Failed to register the command: " .. commandName)

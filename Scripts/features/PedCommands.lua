@@ -34,7 +34,7 @@ local createdpedsmodels = { }
 local createdpedsID = { }
 
 --View all peds command variables
-local viewAllPedsList = JsonReadList("peds.json")  -- Список доступных педов
+local viewAllPedsList = JsonReadList("peds.json")
 local viewAllPedsListIndex = 1
 local viewAllPedsAnimations = { "WORLD_HUMAN_AA_COFFEE", "WORLD_HUMAN_SMOKING_POT" }
 local viewAllPedsCurrentPed = nil
@@ -883,7 +883,7 @@ function InitializeSettings()
     ViewAllPedsSelectKey = ConvertStringToKeyCode(configUtils.GetFeatureSetting("Hotkeys", "ViewAllPedsSelectKey"))
 end
 
--- Определим словарь с командами и их функциями
+-- Define a dictionary with commands and their functions
 local Commands = {
     ["ped list"] = PedsListCommand,
     ["create ped"] = CreatePedCommand,
@@ -898,7 +898,7 @@ math.randomseed(os.time())
 
 InitializeSettings()
 
--- Цикл для регистрации команд
+-- Loop for registering commands
 for commandName, commandFunction in pairs(Commands) do
     if not BindCommand(commandName, commandFunction) then
         DisplayError(true, "Failed to register the command: " .. commandName)

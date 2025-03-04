@@ -1,0 +1,6 @@
+2025-03-04 18:04:05,194 - GCTV - INFO - The language module was successfully initialized.
+2025-03-04 18:05:13,429 - GCTV - INFO - Start launch!
+2025-03-04 18:06:14,592 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-03-04 18:48:02,473 - GCTV - INFO - The language module was successfully initialized.
+2025-03-04 18:49:57,175 - GCTV - INFO - Start launch!
+2025-03-04 18:50:03,745 - GCTV - INFO - Dll succesfully injected into GTA5.exe

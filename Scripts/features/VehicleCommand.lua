@@ -127,7 +127,6 @@ function SaveVehicle(vehicle)
     io.write("Enter the name of the vehicle you want to save: ")
     local vehicleName = io.read()
 
-    -- Получение данных о транспортном средстве
     local vehicleData = {}
 
     vehicleData["name"] = vehicleName
@@ -136,7 +135,7 @@ function SaveVehicle(vehicle)
 
     networkUtils.RequestControlOf(vehicle)
 
-    -- Получение модификаций
+    -- Getting modifications
     for i = 0, 24 do
         local isToggleable = (i >= 17 and i <= 22)
         if isToggleable then
@@ -146,7 +145,7 @@ function SaveVehicle(vehicle)
         end
     end
 
-    -- Корректная обработка цветов транспорта
+    -- Correct processing of vehicle colors
     local primaryCol = New(4)
     local secondaryCol = New(4)
     VEHICLE.GET_VEHICLE_COLOURS(vehicle, primaryCol, secondaryCol)
@@ -163,7 +162,7 @@ function SaveVehicle(vehicle)
     Delete(pearlCol)
     Delete(wheelCol)
 
-    -- Запись цветов модификаций как простые значения
+    -- Writing modification colors as simple values
     local modColor1A = New(4)
     local modColor1B = New(4)
     local modColor1C = New(4)
@@ -183,7 +182,6 @@ function SaveVehicle(vehicle)
     Delete(modColor2A)
     Delete(modColor2B)
 
-    -- Цвета пользовательских цветов
     if VEHICLE.GET_IS_VEHICLE_PRIMARY_COLOUR_CUSTOM(vehicle) then
         local custR1 = New(4)
         local custG1 = New(4)
@@ -220,7 +218,6 @@ function SaveVehicle(vehicle)
     vehicleData["xenonColorIndex"] = VEHICLE.GET_VEHICLE_XENON_LIGHT_COLOR_INDEX(vehicle)
     vehicleData["bulletproofTyres"] = VEHICLE.GET_VEHICLE_TYRES_CAN_BURST(vehicle)
 
-    -- Проверка включения неоновых светов
     vehicleData["neonEnabledLeft"] = VEHICLE.GET_VEHICLE_NEON_ENABLED(vehicle, 0)
     vehicleData["neonEnabledRight"] = VEHICLE.GET_VEHICLE_NEON_ENABLED(vehicle, 1)
     vehicleData["neonEnabledFront"] = VEHICLE.GET_VEHICLE_NEON_ENABLED(vehicle, 2)
@@ -237,7 +234,6 @@ function SaveVehicle(vehicle)
     Delete(neonGp)
     Delete(neonBp)
 
-    -- Получение цвета дымового шина
     local tyreSmokeR = New(4)
     local tyreSmokeG = New(4)
     local tyreSmokeB = New(4)
@@ -249,12 +245,11 @@ function SaveVehicle(vehicle)
     Delete(tyreSmokeG)
     Delete(tyreSmokeB)
 
-    -- Состояние крыши для кабриолетов
+    -- Roof state for convertibles
     if VEHICLE.IS_VEHICLE_A_CONVERTIBLE(vehicle, false) then
         vehicleData["roofState"] = VEHICLE.GET_CONVERTIBLE_ROOF_STATE(vehicle)
     end
 
-    -- Получение экстра и их состояния
     for i = 1, 10 do
         if VEHICLE.DOES_EXTRA_EXIST(vehicle, i) then
             vehicleData["extra" .. i] = VEHICLE.IS_VEHICLE_EXTRA_TURNED_ON(vehicle, i)
@@ -270,7 +265,6 @@ function SaveVehicle(vehicle)
         vehicleData["isModed"] = false
     end
 
-    -- Сохранение данных в файл
     local vehiclesList = JsonReadList("saved_vehicles.json") or {}
     table.insert(vehiclesList, vehicleData)
 
@@ -1570,12 +1564,10 @@ function ViewAllVehiclesCommand()
     -- Спавнить первый автомобиль
     SpawnVehicle(viewAllVehiclesList[viewAllVehiclesListVehicleIndex], {x = -482.3, y = -133.3, z = 37.6})
     
-    -- Вход в основной цикл
     while true do
         if not StillViewingAllVehicles then
             return nil
         end
-        -- Обработка нажатия клавиш
         if IsPressedKey(ViewAllVehiclesNextKey) then
             ChangeVehicle(1)
         elseif IsPressedKey(ViewAllVehiclesBackKey) then
@@ -1585,35 +1577,7 @@ function ViewAllVehiclesCommand()
             --print(coords.x, coords.y, coords.z) -- DEBUG
             BreakViewAllVehicles()
             break
-        --[[
-
-        --DEBUG
-
-        elseif IsPressedKey(0x41) then
-            cameraCoords.y = cameraCoords.y + 1.0
-            CAM.SET_CAM_COORD(viewAllVehiclescamera, cameraCoords.x, cameraCoords.y, cameraCoords.z)
-            Wait(100)
-        elseif IsPressedKey(0x44) then
-            cameraCoords.y = cameraCoords.y - 1.0
-            CAM.SET_CAM_COORD(viewAllVehiclescamera, cameraCoords.x, cameraCoords.y, cameraCoords.z)
-            Wait(100)
-        elseif IsPressedKey(0x57) then
-            cameraCoords.x = cameraCoords.x + 1.0
-            CAM.SET_CAM_COORD(viewAllVehiclescamera, cameraCoords.x, cameraCoords.y, cameraCoords.z)
-            Wait(100)
-        elseif IsPressedKey(0x53) then
-            cameraCoords.x = cameraCoords.x - 1.0
-            CAM.SET_CAM_COORD(viewAllVehiclescamera, cameraCoords.x, cameraCoords.y, cameraCoords.z)
-            Wait(100)
-        elseif IsPressedKey(0x20) then
-            cameraCoords.z = cameraCoords.z + 1.0
-            CAM.SET_CAM_COORD(viewAllVehiclescamera, cameraCoords.x, cameraCoords.y, cameraCoords.z)
-            Wait(100)
-        elseif IsPressedKey(0x11) then
-            cameraCoords.z = cameraCoords.z - 1.0
-            CAM.SET_CAM_COORD(viewAllVehiclescamera, cameraCoords.x, cameraCoords.y, cameraCoords.z)
-            Wait(100)
-        ]]
+        
         end
 
         Wait(10)
@@ -1632,7 +1596,7 @@ function InitializeSettings()
     SetGlobalVariableValue("DisableLockOnCurrentVehicleState", DisableLockOn)
 end
 
--- Определим словарь с командами и их функциями
+-- Define a dictionary with commands and their functions
 local Commands = {
     ["vehicle list"] = VehicleListCommand,
     ["modified vehicles"] = ModifiedVehiclesCommand,
@@ -1655,7 +1619,7 @@ math.randomseed(os.time())
 
 InitializeSettings()
 
--- Цикл для регистрации команд
+-- Loop for registering commands
 for commandName, commandFunction in pairs(Commands) do
     if not BindCommand(commandName, commandFunction) then
         DisplayError(true, "Failed to register the command: " .. commandName)
