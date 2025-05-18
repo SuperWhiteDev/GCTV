@@ -1,0 +1,394 @@
+[
+  {
+    "Name": "AirP",
+    "DisplayName": "Los Santos International Airport"
+  },
+  {
+    "Name": "Alamo",
+    "DisplayName": "Alamo Sea"
+  },
+  {
+    "Name": "Alta",
+    "DisplayName": "Alta"
+  },
+  {
+    "Name": "ArmyB",
+    "DisplayName": "Fort Zancudo"
+  },
+  {
+    "Name": "BanhamCa",
+    "DisplayName": "BanhamCa"
+  },
+  {
+    "Name": "Banning",
+    "DisplayName": "Banning"
+  },
+  {
+    "Name": "Baytre",
+    "DisplayName": "Baytree Canyon"
+  },
+  {
+    "Name": "Beach",
+    "DisplayName": "Vespucci Beach"
+  },
+  {
+    "Name": "BhamCa",
+    "DisplayName": "Banham Canyon"
+  },
+  {
+    "Name": "BradP",
+    "DisplayName": "Braddock Pass"
+  },
+  {
+    "Name": "BradT",
+    "DisplayName": "Braddock Tunnel"
+  },
+  {
+    "Name": "Burton",
+    "DisplayName": "Burton"
+  },
+  {
+    "Name": "CalafB",
+    "DisplayName": "Calafia Bridge"
+  },
+  {
+    "Name": "SANAND",
+    "DisplayName": "San Andreas"
+  },
+  {
+    "Name": "CANNY",
+    "DisplayName": "Raton Canyon"
+  },
+  {
+    "Name": "CCreak",
+    "DisplayName": "Cassidy Creek"
+  },
+  {
+    "Name": "ChamH",
+    "DisplayName": "Chamberlain Hills"
+  },
+  {
+    "Name": "CHIL",
+    "DisplayName": "Vinewood Hills"
+  },
+  {
+    "Name": "CHU",
+    "DisplayName": "Chumash"
+  },
+  {
+    "Name": "CMSW",
+    "DisplayName": "Chiliad Mountain State Wilderness"
+  },
+  {
+    "Name": "Cypre",
+    "DisplayName": "Cypress Flats"
+  },
+  {
+    "Name": "Davis",
+    "DisplayName": "Davis"
+  },
+  {
+    "Name": "Delbe",
+    "DisplayName": "Del Perro Beach"
+  },
+  {
+    "Name": "DeLBe",
+    "DisplayName": "Del Perro Beach"
+  },
+  {
+    "Name": "DelPe",
+    "DisplayName": "Del Perro"
+  },
+  {
+    "Name": "DelSol",
+    "DisplayName": "La Puerta"
+  },
+  {
+    "Name": "Desrt",
+    "DisplayName": "Grand Senora Desert"
+  },
+  {
+    "Name": "Downt",
+    "DisplayName": "Downtown"
+  },
+  {
+    "Name": "DTVine",
+    "DisplayName": "Downtown Vinewood"
+  },
+  {
+    "Name": "East_V",
+    "DisplayName": "East Vinewood"
+  },
+  {
+    "Name": "EBuro",
+    "DisplayName": "El Burro Heights"
+  },
+  {
+    "Name": "ELGorL",
+    "DisplayName": "El Gordo Lighthouse"
+  },
+  {
+    "Name": "Elysian",
+    "DisplayName": "Elysian Island"
+  },
+  {
+    "Name": "Galfish",
+    "DisplayName": "Galilee"
+  },
+  {
+    "Name": "Galli",
+    "DisplayName": "Galileo Park"
+  },
+  {
+    "Name": "Golf",
+    "DisplayName": "GWC and Golfing Society"
+  },
+  {
+    "Name": "GrapeS",
+    "DisplayName": "Grapeseed"
+  },
+  {
+    "Name": "Greatc",
+    "DisplayName": "Great Chaparral"
+  },
+  {
+    "Name": "Harmo",
+    "DisplayName": "Harmony"
+  },
+  {
+    "Name": "Hawick",
+    "DisplayName": "Hawick"
+  },
+  {
+    "Name": "Hors",
+    "DisplayName": "Vinewood Racetrack"
+  },
+  {
+    "Name": "HumLab",
+    "DisplayName": "Humane Labs and Research"
+  },
+  {
+    "Name": "IsHeist",
+    "DisplayName": "Cayo Perico Island"
+  },
+  {
+    "Name": "Jail",
+    "DisplayName": "Bolingbroke Penitentiary"
+  },
+  {
+    "Name": "Koreat",
+    "DisplayName": "Little Seoul"
+  },
+  {
+    "Name": "LAct",
+    "DisplayName": "Land Act Reservoir"
+  },
+  {
+    "Name": "Lago",
+    "DisplayName": "Lago Zancudo"
+  },
+  {
+    "Name": "LAGO",
+    "DisplayName": "Lago Zancudo"
+  },
+  {
+    "Name": "LDam",
+    "DisplayName": "Land Act Dam"
+  },
+  {
+    "Name": "LegSqu",
+    "DisplayName": "Legion Square"
+  },
+  {
+    "Name": "LMesa",
+    "DisplayName": "La Mesa"
+  },
+  {
+    "Name": "LosPuer",
+    "DisplayName": "La Puerta"
+  },
+  {
+    "Name": "Mirr",
+    "DisplayName": "Mirror Park"
+  },
+  {
+    "Name": "Morn",
+    "DisplayName": "Morningwood"
+  },
+  {
+    "Name": "Movie",
+    "DisplayName": "Richards Majestic"
+  },
+  {
+    "Name": "MTChil",
+    "DisplayName": "Mount Chiliad"
+  },
+  {
+    "Name": "MTGordo",
+    "DisplayName": "Mount Gordo"
+  },
+  {
+    "Name": "MTJose",
+    "DisplayName": "Mount Josiah"
+  },
+  {
+    "Name": "Murri",
+    "DisplayName": "Murrieta Heights"
+  },
+  {
+    "Name": "NCHU",
+    "DisplayName": "North Chumash"
+  },
+  {
+    "Name": "Noose",
+    "DisplayName": "N.O.O.S.E"
+  },
+  {
+    "Name": "Observ",
+    "DisplayName": "Galileo Observatory"
+  },
+  {
+    "Name": "Oceana",
+    "DisplayName": "Pacific Ocean"
+  },
+  {
+    "Name": "OCEANA",
+    "DisplayName": "Pacific Ocean"
+  },
+  {
+    "Name": "PalCov",
+    "DisplayName": "Paleto Cove"
+  },
+  {
+    "Name": "Paleto",
+    "DisplayName": "Paleto Bay"
+  },
+  {
+    "Name": "PalFor",
+    "DisplayName": "Paleto Forest"
+  },
+  {
+    "Name": "PalHigh",
+    "DisplayName": "Palomino Highlands"
+  },
+  {
+    "Name": "Palmpow",
+    "DisplayName": "Palmer-Taylor Power Station"
+  },
+  {
+    "Name": "PBluff",
+    "DisplayName": "Pacific Bluffs"
+  },
+  {
+    "Name": "PBOX",
+    "DisplayName": "Pillbox Hill"
+  },
+  {
+    "Name": "ProcoB",
+    "DisplayName": "Procopio Beach"
+  },
+  {
+    "Name": "Prol",
+    "DisplayName": "North Yankton"
+  },
+  {
+    "Name": "RANCHO",
+    "DisplayName": "Rancho"
+  },
+  {
+    "Name": "RGLEN",
+    "DisplayName": "Richman Glen"
+  },
+  {
+    "Name": "Richm",
+    "DisplayName": "Richman"
+  },
+  {
+    "Name": "Rockf",
+    "DisplayName": "Rockford Hills"
+  },
+  {
+    "Name": "RTRAK",
+    "DisplayName": "Redwood Lights Track"
+  },
+  {
+    "Name": "SanChia",
+    "DisplayName": "San Chianski Mountain Range"
+  },
+  {
+    "Name": "Sandy",
+    "DisplayName": "Sandy Shores"
+  },
+  {
+    "Name": "SKID",
+    "DisplayName": "Mission Row"
+  },
+  {
+    "Name": "Slab",
+    "DisplayName": "Stab City"
+  },
+  {
+    "Name": "Stad",
+    "DisplayName": "Maze Bank Arena"
+  },
+  {
+    "Name": "STRAW",
+    "DisplayName": "Strawberry"
+  },
+  {
+    "Name": "Tatamo",
+    "DisplayName": "Tataviam Mountains"
+  },
+  {
+    "Name": "Termina",
+    "DisplayName": "Terminal"
+  },
+  {
+    "Name": "TEXTI",
+    "DisplayName": "Textile City"
+  },
+  {
+    "Name": "TongvaH",
+    "DisplayName": "Tongva Hills"
+  },
+  {
+    "Name": "TongVaH",
+    "DisplayName": "Tongva Hills"
+  },
+  {
+    "Name": "TongvaV",
+    "DisplayName": "Tongva Valley"
+  },
+  {
+    "Name": "VCana",
+    "DisplayName": "Vespucci Canals"
+  },
+  {
+    "Name": "Vesp",
+    "DisplayName": "Vespucci"
+  },
+  {
+    "Name": "Vine",
+    "DisplayName": "Vinewood"
+  },
+  {
+    "Name": "WindF",
+    "DisplayName": "Ron Alternates Wind Farm"
+  },
+  {
+    "Name": "WVine",
+    "DisplayName": "West Vinewood"
+  },
+  {
+    "Name": "Zancudo",
+    "DisplayName": "Zancudo River"
+  },
+  {
+    "Name": "ZP_ORT",
+    "DisplayName": "Port of South Los Santos"
+  },
+  {
+    "Name": "zQ_UAR",
+    "DisplayName": "Davis Quartz"
+  }
+]

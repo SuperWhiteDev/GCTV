@@ -1,0 +1,2 @@
+## Python
+Python is a versatile and widely used programming language known for its simplicity and readability. Here, you'll find information on integrating Python scripts into Game Command Terminal V, documentation on available APIs, and examples of practical use.

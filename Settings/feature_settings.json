@@ -1,0 +1,64 @@
+{
+    "LocalPlayerOptions": {
+        "AlwaysCleanPlayer": false,
+        "EveryoneIgnore": false,
+        "NeverWanted": false,
+        "MobileRadio": true,
+        "LockedRadioStation": ""
+    },
+    "WeaponOptions": {
+        "InfinityAmmoWeapon": false,
+        "InfinityAmmoClipWeapon": false,
+        "AlwaysInvisibleWeapon": false
+    },
+    "VehicleOptions": {
+        "AutoFixVehicle": false,
+        "DisableLockOn": false
+    },
+    "NoclipOptions": {
+        "NoclipSpeed": 2.0
+    },
+    "AerialReconnaissanceDroneOptions": {
+        "DroneMissilesCount": 8
+    },
+    "Hotkeys": {
+        "HealPlayerKey": "K",
+        "ThermalVisionKey": "Ctrl+L",
+        "NoclipKey": "F5",
+        "VehicleBoostKey": "LShift",
+        "VehicleExtraBrakeKey": "LCtrl",
+        "VehicleAirBoostKey": "Mouse X2",
+        "VehicleAirExtraBrakeKey": "Mouse X1",
+        "VehicleIndicatorLightLeftKey": "Left Arrow",
+        "VehicleIndicatorLightRightKey": "Right Arrow",
+        "ViewAllVehiclesNextKey": "Right Arrow",
+        "ViewAllVehiclesBackKey": "Left Arrow",
+        "ViewAllVehiclesSelectKey": "Enter",
+        "ViewAllPedsNextKey": "Right Arrow",
+        "ViewAllPedsBackKey": "Left Arrow",
+        "ViewAllPedsSelectKey": "Enter",
+        "ARDMoveForwardKey": "W",
+        "ARDMoveBackwardKey": "S",
+        "ARDMoveLeftKey": "A",
+        "ARDMoveRightKey": "D",
+        "ARDExit": "Escape",
+        "NoclipMoveForwardKey": "W",
+        "NoclipMoveBackwardKey": "S",
+        "NoclipMoveLeftKey": "A",
+        "NoclipMoveRightKey": "D",
+        "NoclipMoveUpKey": "Space",
+        "NoclipMoveDownKey": "Ctrl",
+        "NoclipSprintKey": "Shift",
+        "NoclipEnterExitVehicleKey": "F",
+        "RCMoveForwardMainKey": "W",
+        "RCMoveBackwardMainKey": "S",
+        "RCMoveLeftMainKey": "A",
+        "RCMoveRightMainKey": "D",
+        "RCMoveForwardSecondaryKey": "Up Arrow",
+        "RCMoveBackwardSecondaryKey": "Down Arrow",
+        "RCMoveLeftSecondaryKey": "Left Arrow",
+        "RCMoveRightSecondaryKey": "Right Arrow",
+        "RCChangeViewKey": "V",
+        "RCExitKey": "Escape"
+    }
+}

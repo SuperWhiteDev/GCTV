@@ -1,0 +1,671 @@
+[2024-10-06 13:45:39] [ERROR] Process GTA5.exe is not running
+[2024-10-06 13:45:54] [ERROR] Process GTA5.exe is not running
+[2024-10-06 14:35:05] [ERROR] Процесс GTA5.exe не запущен
+[2024-10-06 14:35:16] [ERROR] Процесс GTA5.exe не запущен
+[2024-10-07 17:38:04] [ERROR] Процесс GTA5.exe не запущен
+[2024-10-07 21:01:53] [ERROR] Не удалось внедрить GameCommandTerminalV.dll в процесс GTA5.exe
+[2024-10-07 21:16:36] [ERROR] Процесс GTA5.exe не запущен
+[2024-10-07 21:17:43] [ERROR] Процесс GTA5.exe не запущен
+[2024-10-07 21:54:48] [ERROR] Процесс GTA5.exe не запущен
+2025-02-21 22:05:50,252 - GCTV - INFO - The language module was successfully initialized.
+2025-02-21 22:06:27,314 - GCTV - INFO - The language module was successfully initialized.
+2025-02-21 22:07:01,680 - GCTV - INFO - The language module was successfully initialized.
+2025-02-21 22:07:54,560 - GCTV - INFO - The language module was successfully initialized.
+2025-02-21 22:09:02,794 - GCTV - INFO - The language module was successfully initialized.
+2025-02-21 22:09:38,297 - GCTV - INFO - The language module was successfully initialized.
+2025-02-21 23:10:46,038 - GCTV - INFO - The language module was successfully initialized.
+2025-02-21 23:11:14,371 - GCTV - INFO - The language module was successfully initialized.
+2025-02-21 23:12:11,033 - GCTV - INFO - The language module was successfully initialized.
+2025-02-21 23:25:13,592 - GCTV - INFO - The language module was successfully initialized.
+2025-02-21 23:25:32,613 - GCTV - INFO - The language module was successfully initialized.
+2025-02-21 23:25:48,382 - GCTV - INFO - The language module was successfully initialized.
+2025-02-21 23:34:03,466 - GCTV - INFO - The language module was successfully initialized.
+2025-02-21 23:34:22,841 - GCTV - INFO - The language module was successfully initialized.
+2025-02-21 23:34:43,606 - GCTV - INFO - The language module was successfully initialized.
+2025-02-21 23:34:59,354 - GCTV - INFO - The language module was successfully initialized.
+2025-02-21 23:38:20,331 - GCTV - INFO - The language module was successfully initialized.
+2025-02-21 23:42:20,667 - GCTV - INFO - The language module was successfully initialized.
+2025-02-21 23:44:35,104 - GCTV - INFO - The language module was successfully initialized.
+2025-02-21 23:47:34,253 - GCTV - INFO - The language module was successfully initialized.
+2025-02-21 23:49:23,711 - GCTV - INFO - The language module was successfully initialized.
+2025-02-21 23:49:43,684 - GCTV - INFO - The language module was successfully initialized.
+2025-02-21 23:53:07,032 - GCTV - INFO - The language module was successfully initialized.
+2025-02-21 23:53:08,742 - GCTV - INFO - Path is C:\Users\Stani\AppData\Local\Temp\_MEI69762
+2025-02-21 23:55:53,772 - GCTV - INFO - The language module was successfully initialized.
+2025-02-22 15:08:11,598 - GCTV - INFO - The language module was successfully initialized.
+2025-02-22 16:24:26,722 - GCTV - INFO - The language module was successfully initialized.
+2025-02-22 16:25:18,253 - GCTV - INFO - The language module was successfully initialized.
+2025-02-22 16:25:31,475 - GCTV - INFO - The language module was successfully initialized.
+2025-02-22 16:25:40,542 - GCTV - INFO - The language module was successfully initialized.
+2025-02-22 16:29:23,087 - GCTV - INFO - The language module was successfully initialized.
+2025-02-22 16:30:08,108 - GCTV - INFO - The language module was successfully initialized.
+2025-02-22 21:07:11,631 - GCTV - INFO - The language module was successfully initialized.
+2025-02-22 21:08:09,921 - GCTV - INFO - The language module was successfully initialized.
+2025-02-22 21:11:23,324 - GCTV - INFO - The language module was successfully initialized.
+2025-02-22 21:12:08,775 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:12:09,106 - GCTV - ERROR - Failed to create new language pack "Russion". Error: invalid destination language.
+2025-02-22 21:12:09,106 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:12:09,475 - GCTV - ERROR - Failed to create new language pack "Russion". Error: invalid destination language.
+2025-02-22 21:12:10,489 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:12:10,996 - GCTV - ERROR - Failed to create new language pack "Russion". Error: invalid destination language.
+2025-02-22 21:12:12,003 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:12:12,356 - GCTV - ERROR - Failed to create new language pack "Russion". Error: invalid destination language.
+2025-02-22 21:12:13,375 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:12:13,744 - GCTV - ERROR - Failed to create new language pack "Russion". Error: invalid destination language.
+2025-02-22 21:12:13,744 - GCTV - INFO - Failed to initialize language module.
+2025-02-22 21:14:35,375 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:14:35,379 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:14:36,381 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:14:37,385 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:14:38,389 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:14:38,389 - GCTV - INFO - Failed to initialize language module.
+2025-02-22 21:16:25,304 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:16:25,309 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:16:26,312 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:16:27,314 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:16:28,317 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:16:28,317 - GCTV - INFO - Failed to initialize language module.
+2025-02-22 21:19:39,411 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:19:39,415 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:19:40,419 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:19:41,421 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:19:42,425 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:19:42,425 - GCTV - INFO - Failed to initialize language module.
+2025-02-22 21:20:11,211 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:20:11,214 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:20:12,215 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:20:13,221 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:20:14,223 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:20:14,223 - GCTV - INFO - Failed to initialize language module.
+2025-02-22 21:21:16,389 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:21:16,392 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:21:17,394 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:21:18,396 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:21:19,400 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:21:19,400 - GCTV - INFO - Failed to initialize language module.
+2025-02-22 21:21:46,777 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:21:46,781 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:21:47,785 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:21:48,791 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:21:49,794 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:21:49,796 - GCTV - INFO - Failed to initialize language module.
+2025-02-22 21:22:34,965 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:22:34,969 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:22:35,972 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:22:36,974 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:22:37,977 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:22:37,977 - GCTV - INFO - Failed to initialize language module.
+2025-02-22 21:23:29,954 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:23:29,957 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:23:30,958 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:23:31,961 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:23:32,963 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:23:32,963 - GCTV - INFO - Failed to initialize language module.
+2025-02-22 21:23:58,873 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:23:58,873 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:23:59,882 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:24:00,884 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:24:01,886 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:24:01,886 - GCTV - INFO - Failed to initialize language module.
+2025-02-22 21:24:23,832 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:24:23,835 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:24:24,837 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:24:25,839 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:24:26,842 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:24:26,843 - GCTV - INFO - Failed to initialize language module.
+2025-02-22 21:25:59,612 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:25:59,615 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:26:00,617 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:26:01,620 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:26:02,622 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:26:02,622 - GCTV - INFO - Failed to initialize language module.
+2025-02-22 21:27:22,283 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:27:22,283 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:27:23,291 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:27:24,295 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:27:25,299 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:27:25,300 - GCTV - INFO - Failed to initialize language module.
+2025-02-22 21:28:09,569 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:28:09,572 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:28:10,574 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:28:11,576 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:28:12,579 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:28:12,580 - GCTV - INFO - Failed to initialize language module.
+2025-02-22 21:28:38,290 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:28:38,293 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:28:39,300 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:28:40,303 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:28:41,307 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:28:41,307 - GCTV - INFO - Failed to initialize language module.
+2025-02-22 21:29:54,386 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:29:54,386 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:29:55,396 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:29:56,402 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:29:57,404 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:29:57,405 - GCTV - INFO - Failed to initialize language module.
+2025-02-22 21:30:30,377 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:30:30,383 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:30:31,386 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:30:32,388 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:30:33,394 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:30:33,394 - GCTV - INFO - Failed to initialize language module.
+2025-02-22 21:43:08,026 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:43:08,042 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:43:09,046 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:43:10,129 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:43:11,176 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:43:11,177 - GCTV - INFO - Failed to initialize language module.
+2025-02-22 21:43:53,529 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:43:53,533 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:43:54,546 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:43:55,551 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:43:56,594 - GCTV - INFO - "Russion" language pack was not found. Creating a new language pack "Russion".
+2025-02-22 21:43:56,594 - GCTV - INFO - Failed to initialize language module.
+2025-02-22 21:47:24,467 - GCTV - INFO - The language module was successfully initialized.
+2025-02-22 21:48:41,266 - GCTV - INFO - The language module was successfully initialized.
+2025-02-22 21:50:38,018 - GCTV - INFO - The language module was successfully initialized.
+2025-02-22 21:54:12,033 - GCTV - INFO - The language module was successfully initialized.
+2025-02-22 22:00:36,227 - GCTV - INFO - The language module was successfully initialized.
+2025-02-22 22:02:28,485 - GCTV - INFO - The language module was successfully initialized.
+2025-02-22 22:02:38,063 - GCTV - ERROR - Error during launching. Failed to copy Python files to GTAV folder
+2025-02-22 22:03:57,731 - GCTV - INFO - The language module was successfully initialized.
+2025-02-22 22:07:56,919 - GCTV - INFO - The language module was successfully initialized.
+2025-02-22 22:08:07,670 - GCTV - INFO - Starting launch!
+2025-02-22 22:09:10,522 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-02-22 22:15:23,717 - GCTV - INFO - The language module was successfully initialized.
+2025-03-03 14:52:49,249 - GCTV - INFO - The language module was successfully initialized.
+2025-03-04 18:41:12,583 - GCTV - INFO - The language module was successfully initialized.
+2025-03-04 18:44:59,936 - GCTV - INFO - The language module was successfully initialized.
+2025-04-06 22:02:54,573 - GCTV - INFO - The language module was successfully initialized.
+2025-04-28 11:00:49,223 - GCTV - INFO - The language module was successfully initialized.
+2025-04-28 11:01:03,545 - GCTV - INFO - The language module was successfully initialized.
+2025-04-28 11:01:11,897 - GCTV - INFO - The language module was successfully initialized.
+2025-04-28 11:02:05,465 - GCTV - INFO - The language module was successfully initialized.
+2025-04-28 11:02:19,825 - GCTV - INFO - The language module was successfully initialized.
+2025-04-28 11:03:14,969 - GCTV - INFO - The language module was successfully initialized.
+2025-04-28 11:06:01,450 - GCTV - INFO - The language module was successfully initialized.
+2025-04-28 11:06:53,922 - GCTV - INFO - The language module was successfully initialized.
+2025-04-28 11:07:37,293 - GCTV - INFO - The language module was successfully initialized.
+2025-04-28 11:07:54,809 - GCTV - INFO - The language module was successfully initialized.
+2025-04-28 11:10:05,884 - GCTV - INFO - The language module was successfully initialized.
+2025-04-28 11:10:11,838 - GCTV - INFO - The language module was successfully initialized.
+2025-04-28 11:10:16,457 - GCTV - INFO - The language module was successfully initialized.
+2025-04-28 11:10:20,820 - GCTV - INFO - The language module was successfully initialized.
+2025-04-28 11:10:24,265 - GCTV - INFO - The language module was successfully initialized.
+2025-04-28 11:12:19,187 - GCTV - INFO - The language module was successfully initialized.
+2025-04-28 11:12:22,626 - GCTV - INFO - The language module was successfully initialized.
+2025-04-28 11:15:56,329 - GCTV - INFO - The language module was successfully initialized.
+2025-04-28 11:16:23,541 - GCTV - INFO - The language module was successfully initialized.
+2025-04-28 12:01:48,053 - GCTV - INFO - The language module was successfully initialized.
+2025-04-29 11:16:37,460 - GCTV - INFO - The language module was successfully initialized.
+2025-04-29 11:16:44,696 - GCTV - INFO - Start launch!
+2025-04-29 11:16:55,300 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-04-29 11:19:31,673 - GCTV - INFO - Start launch!
+2025-04-29 11:19:42,507 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-04-29 11:41:37,829 - GCTV - INFO - Start launch!
+2025-04-29 11:41:42,849 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-04-29 11:49:51,942 - GCTV - INFO - Start launch!
+2025-04-29 11:49:57,008 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-04-29 12:50:58,670 - GCTV - INFO - Start launch!
+2025-04-29 12:51:19,816 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-04-29 12:51:24,633 - GCTV - INFO - Start launch!
+2025-04-29 12:51:34,938 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-04-29 12:55:48,659 - GCTV - INFO - Start launch!
+2025-04-29 12:56:08,903 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-04-29 13:13:31,773 - GCTV - INFO - Start launch!
+2025-04-29 13:13:41,504 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-04-29 13:17:05,401 - GCTV - INFO - Start launch!
+2025-04-29 13:17:16,336 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-04-29 13:24:46,003 - GCTV - INFO - Start launch!
+2025-04-29 13:24:54,366 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-04-29 13:26:38,749 - GCTV - INFO - Start launch!
+2025-04-29 13:26:46,731 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-04-29 13:29:56,457 - GCTV - INFO - Start launch!
+2025-04-29 13:30:02,862 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-04-29 13:34:12,128 - GCTV - INFO - Start launch!
+2025-04-29 13:34:17,606 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-04-29 13:35:44,201 - GCTV - INFO - Start launch!
+2025-04-29 13:35:49,722 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-04-29 13:38:02,635 - GCTV - INFO - Start launch!
+2025-04-29 13:38:10,951 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-04-29 13:39:38,173 - GCTV - INFO - Start launch!
+2025-04-29 13:39:45,783 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-04-29 13:45:34,864 - GCTV - INFO - Start launch!
+2025-04-29 13:45:42,369 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-04-29 13:45:46,333 - GCTV - INFO - Start launch!
+2025-04-29 13:45:54,479 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-04-29 13:48:31,299 - GCTV - INFO - Start launch!
+2025-04-29 13:48:36,576 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-04-29 13:56:28,497 - GCTV - INFO - Start launch!
+2025-04-29 13:56:39,497 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-04-29 14:00:50,342 - GCTV - INFO - Start launch!
+2025-04-29 14:00:56,435 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-04-29 14:04:25,188 - GCTV - INFO - Start launch!
+2025-04-29 14:04:30,033 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-04-29 17:37:49,187 - GCTV - INFO - Start launch!
+2025-04-29 17:38:02,652 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-04-29 17:39:32,248 - GCTV - INFO - Start launch!
+2025-04-29 17:39:37,989 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-04-29 17:43:33,098 - GCTV - INFO - Start launch!
+2025-04-29 17:43:38,486 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-04-29 17:48:42,986 - GCTV - INFO - Start launch!
+2025-04-29 17:48:49,476 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-04-29 17:58:18,892 - GCTV - INFO - Start launch!
+2025-04-29 17:58:32,746 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-04-29 18:02:09,193 - GCTV - INFO - Start launch!
+2025-04-29 18:02:16,199 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-01 11:43:57,304 - GCTV - INFO - The language module was successfully initialized.
+2025-05-01 15:14:39,438 - GCTV - INFO - Start launch!
+2025-05-01 15:14:54,512 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-02 20:39:54,703 - GCTV - INFO - The language module was successfully initialized.
+2025-05-02 20:42:35,945 - GCTV - INFO - The language module was successfully initialized.
+2025-05-02 20:42:38,403 - GCTV - INFO - Start launch!
+2025-05-02 20:42:55,242 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-02 21:18:48,711 - GCTV - INFO - Start launch!
+2025-05-02 21:19:13,802 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-02 21:22:54,398 - GCTV - INFO - Start launch!
+2025-05-02 21:23:01,732 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-02 21:25:08,416 - GCTV - INFO - Start launch!
+2025-05-02 21:25:14,225 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-02 21:26:58,306 - GCTV - INFO - Start launch!
+2025-05-02 21:27:07,690 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-02 21:32:55,370 - GCTV - INFO - Start launch!
+2025-05-02 21:33:01,079 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-02 21:38:01,269 - GCTV - INFO - Start launch!
+2025-05-02 21:38:08,366 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-02 21:42:43,107 - GCTV - INFO - Start launch!
+2025-05-02 21:42:50,962 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-02 21:44:32,404 - GCTV - INFO - Start launch!
+2025-05-02 21:44:40,633 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-03 17:12:18,342 - GCTV - INFO - The language module was successfully initialized.
+2025-05-03 17:13:55,759 - GCTV - INFO - Start launch!
+2025-05-03 17:14:27,025 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-03 17:26:56,884 - GCTV - INFO - Start launch!
+2025-05-03 17:27:02,742 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-03 17:31:22,806 - GCTV - INFO - Start launch!
+2025-05-03 17:31:29,747 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-03 19:48:16,800 - GCTV - INFO - Start launch!
+2025-05-03 19:48:25,059 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-03 19:58:12,760 - GCTV - INFO - Start launch!
+2025-05-03 19:58:20,486 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-03 20:01:18,429 - GCTV - INFO - Start launch!
+2025-05-03 20:01:23,629 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-03 20:03:34,876 - GCTV - INFO - Start launch!
+2025-05-03 20:03:40,041 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-03 20:09:56,611 - GCTV - INFO - Start launch!
+2025-05-03 20:10:01,690 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-03 20:11:28,276 - GCTV - INFO - Start launch!
+2025-05-03 20:11:33,420 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-03 20:13:22,285 - GCTV - INFO - Start launch!
+2025-05-03 20:13:29,164 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-03 20:15:01,578 - GCTV - INFO - Start launch!
+2025-05-03 20:15:08,637 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-03 20:19:26,438 - GCTV - INFO - Start launch!
+2025-05-03 20:19:33,500 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-03 20:22:11,643 - GCTV - INFO - Start launch!
+2025-05-03 20:22:17,963 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-03 20:24:15,112 - GCTV - INFO - Start launch!
+2025-05-03 20:24:22,990 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-03 20:26:13,124 - GCTV - INFO - Start launch!
+2025-05-03 20:26:19,801 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-03 20:27:56,758 - GCTV - INFO - Start launch!
+2025-05-03 20:28:02,460 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-03 20:30:54,777 - GCTV - INFO - Start launch!
+2025-05-03 20:30:59,999 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-03 20:43:07,314 - GCTV - INFO - Start launch!
+2025-05-03 20:43:14,160 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-03 20:44:58,938 - GCTV - INFO - Start launch!
+2025-05-03 20:45:05,727 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-03 20:48:33,498 - GCTV - INFO - Start launch!
+2025-05-03 20:48:40,110 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-03 20:51:18,821 - GCTV - INFO - Start launch!
+2025-05-03 20:51:27,286 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-03 20:58:53,286 - GCTV - INFO - Start launch!
+2025-05-03 20:59:00,246 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-03 21:01:35,287 - GCTV - INFO - Start launch!
+2025-05-03 21:01:40,242 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-03 21:03:58,702 - GCTV - INFO - Start launch!
+2025-05-03 21:04:05,791 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-03 21:41:00,860 - GCTV - INFO - Start launch!
+2025-05-03 21:41:07,681 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-03 21:46:48,812 - GCTV - INFO - Start launch!
+2025-05-03 21:46:55,488 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-03 21:49:47,815 - GCTV - INFO - Start launch!
+2025-05-03 21:49:55,629 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-03 21:51:42,197 - GCTV - INFO - Start launch!
+2025-05-03 21:51:48,687 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-03 21:53:33,391 - GCTV - INFO - Start launch!
+2025-05-03 21:53:39,235 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-03 21:55:29,718 - GCTV - INFO - Start launch!
+2025-05-03 21:55:36,282 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-04 07:15:08,098 - GCTV - INFO - The language module was successfully initialized.
+2025-05-04 07:27:26,264 - GCTV - INFO - Start launch!
+2025-05-04 07:27:48,005 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-04 07:31:12,031 - GCTV - INFO - Start launch!
+2025-05-04 07:31:20,534 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-04 12:34:10,500 - GCTV - INFO - The language module was successfully initialized.
+2025-05-04 14:07:46,350 - GCTV - INFO - Start launch!
+2025-05-04 14:07:56,968 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-04 15:15:22,521 - GCTV - INFO - Start launch!
+2025-05-04 15:15:31,167 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-04 15:48:59,566 - GCTV - INFO - Start launch!
+2025-05-04 15:49:06,028 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-04 15:50:59,230 - GCTV - INFO - Start launch!
+2025-05-04 15:51:05,171 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-04 15:55:16,314 - GCTV - INFO - Start launch!
+2025-05-04 15:55:24,543 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-04 15:59:09,859 - GCTV - INFO - Start launch!
+2025-05-04 15:59:16,079 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-04 16:05:30,875 - GCTV - INFO - Start launch!
+2025-05-04 16:05:37,145 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-08 15:20:38,720 - GCTV - INFO - The language module was successfully initialized.
+2025-05-08 15:24:20,215 - GCTV - INFO - Start launch!
+2025-05-08 15:24:20,704 - GCTV - ERROR - Error during launching. Failed to copy Python files to GTAV folder2
+2025-05-08 15:24:20,976 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-08 15:25:06,050 - GCTV - INFO - Start launch!
+2025-05-08 15:25:15,269 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-08 15:27:41,832 - GCTV - INFO - Start launch!
+2025-05-08 15:27:46,832 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-08 15:29:44,255 - GCTV - INFO - Start launch!
+2025-05-08 15:29:50,073 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-08 15:33:13,480 - GCTV - INFO - Start launch!
+2025-05-08 15:33:21,588 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-08 15:45:08,136 - GCTV - INFO - Start launch!
+2025-05-08 15:45:15,991 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-08 15:49:11,724 - GCTV - INFO - Start launch!
+2025-05-08 15:49:19,624 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-08 15:51:42,074 - GCTV - INFO - Start launch!
+2025-05-08 15:51:54,264 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-08 15:55:11,447 - GCTV - INFO - Start launch!
+2025-05-08 15:55:20,804 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-08 15:58:08,186 - GCTV - INFO - Start launch!
+2025-05-08 15:58:17,116 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-08 16:07:44,777 - GCTV - INFO - Start launch!
+2025-05-08 16:07:51,948 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-08 16:25:42,491 - GCTV - INFO - Start launch!
+2025-05-08 16:25:48,122 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-08 16:30:34,670 - GCTV - INFO - Start launch!
+2025-05-08 16:30:41,347 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-08 16:48:07,833 - GCTV - INFO - Start launch!
+2025-05-08 16:48:15,246 - GCTV - ERROR - Error during launching. Failed to copy Python files to GTAV folder2
+2025-05-08 16:48:17,428 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-08 16:51:12,615 - GCTV - INFO - Start launch!
+2025-05-08 16:51:20,723 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-08 16:52:51,580 - GCTV - INFO - Start launch!
+2025-05-08 16:52:56,616 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-08 16:55:40,330 - GCTV - INFO - Start launch!
+2025-05-08 16:55:45,185 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-08 16:56:41,878 - GCTV - INFO - Start launch!
+2025-05-08 16:56:46,779 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-08 20:26:48,634 - GCTV - INFO - Start launch!
+2025-05-08 20:27:00,667 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-08 20:29:32,317 - GCTV - INFO - Start launch!
+2025-05-08 20:29:44,981 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-08 20:31:27,571 - GCTV - INFO - Start launch!
+2025-05-08 20:31:34,248 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-08 20:33:04,381 - GCTV - INFO - Start launch!
+2025-05-08 20:33:11,127 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-08 20:34:45,102 - GCTV - INFO - Start launch!
+2025-05-08 20:34:51,207 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-08 20:37:15,024 - GCTV - INFO - Start launch!
+2025-05-08 20:37:21,533 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-08 20:40:45,719 - GCTV - INFO - Start launch!
+2025-05-08 20:40:52,177 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-08 20:43:47,570 - GCTV - INFO - Start launch!
+2025-05-08 20:43:55,183 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-08 21:00:04,783 - GCTV - INFO - Start launch!
+2025-05-08 21:00:10,265 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-08 21:03:37,456 - GCTV - INFO - Start launch!
+2025-05-08 21:03:51,034 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-08 22:44:27,716 - GCTV - INFO - Start launch!
+2025-05-08 22:44:40,065 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-08 23:05:48,061 - GCTV - INFO - Start launch!
+2025-05-08 23:06:00,643 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-08 23:10:42,314 - GCTV - INFO - Start launch!
+2025-05-08 23:10:47,862 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-08 23:17:40,612 - GCTV - INFO - Start launch!
+2025-05-08 23:17:47,780 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-08 23:20:37,446 - GCTV - INFO - Start launch!
+2025-05-08 23:20:43,000 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-09 08:25:23,387 - GCTV - INFO - The language module was successfully initialized.
+2025-05-09 12:36:58,198 - GCTV - INFO - Start launch!
+2025-05-09 12:37:21,419 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-09 14:31:37,168 - GCTV - INFO - Start launch!
+2025-05-09 14:31:47,963 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-09 14:38:09,909 - GCTV - INFO - Start launch!
+2025-05-09 14:38:21,305 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-09 14:40:49,979 - GCTV - INFO - Start launch!
+2025-05-09 14:40:54,940 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-09 14:45:13,088 - GCTV - INFO - Start launch!
+2025-05-09 14:45:19,444 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-09 14:50:35,421 - GCTV - INFO - Start launch!
+2025-05-09 14:50:40,783 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-09 14:58:37,961 - GCTV - INFO - Start launch!
+2025-05-09 14:59:03,548 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-09 15:00:57,213 - GCTV - INFO - Start launch!
+2025-05-09 15:01:03,014 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-09 15:30:08,081 - GCTV - INFO - Start launch!
+2025-05-09 15:30:12,959 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-09 15:37:46,182 - GCTV - INFO - Start launch!
+2025-05-09 15:37:53,054 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-09 16:20:44,143 - GCTV - INFO - Start launch!
+2025-05-09 16:20:58,276 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-09 16:25:29,377 - GCTV - INFO - Start launch!
+2025-05-09 16:25:35,897 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-09 16:53:45,135 - GCTV - INFO - Start launch!
+2025-05-09 16:53:55,254 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-09 17:07:38,579 - GCTV - INFO - Start launch!
+2025-05-09 17:07:46,315 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-09 18:51:34,639 - GCTV - INFO - Start launch!
+2025-05-09 18:52:33,089 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-09 18:55:07,738 - GCTV - INFO - Start launch!
+2025-05-09 18:55:22,548 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-09 18:59:38,486 - GCTV - INFO - Start launch!
+2025-05-09 18:59:51,372 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-11 13:03:31,185 - GCTV - INFO - The language module was successfully initialized.
+2025-05-11 13:15:48,771 - GCTV - INFO - Start launch!
+2025-05-11 13:16:06,257 - GCTV - ERROR - Error during launching. Failed to inject GCTV
+2025-05-11 13:18:07,916 - GCTV - INFO - Start launch!
+2025-05-11 13:18:14,046 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-11 13:20:46,843 - GCTV - INFO - Start launch!
+2025-05-11 13:20:51,999 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-11 13:23:00,784 - GCTV - INFO - Start launch!
+2025-05-11 13:23:04,944 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-11 13:23:54,177 - GCTV - INFO - Start launch!
+2025-05-11 13:23:59,263 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-11 13:26:34,346 - GCTV - INFO - Start launch!
+2025-05-11 13:26:46,096 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-11 13:30:50,837 - GCTV - INFO - Start launch!
+2025-05-11 13:30:56,020 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-11 19:32:16,709 - GCTV - INFO - Start launch!
+2025-05-11 19:32:23,396 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-11 19:37:45,429 - GCTV - INFO - Start launch!
+2025-05-11 19:37:57,058 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-11 21:04:41,957 - GCTV - INFO - Start launch!
+2025-05-11 21:04:49,191 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-11 21:06:14,021 - GCTV - INFO - Start launch!
+2025-05-11 21:06:20,076 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-11 21:07:15,869 - GCTV - INFO - Start launch!
+2025-05-11 21:07:21,134 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-11 22:00:02,751 - GCTV - INFO - Start launch!
+2025-05-11 22:00:51,113 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-11 22:03:38,397 - GCTV - INFO - Start launch!
+2025-05-11 22:03:45,312 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-11 22:05:06,045 - GCTV - INFO - Start launch!
+2025-05-11 22:05:10,825 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-11 22:07:49,762 - GCTV - INFO - Start launch!
+2025-05-11 22:07:56,873 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-11 22:10:01,290 - GCTV - INFO - Start launch!
+2025-05-11 22:10:07,353 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-11 22:11:50,278 - GCTV - INFO - Start launch!
+2025-05-11 22:11:57,672 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-11 22:13:45,822 - GCTV - INFO - Start launch!
+2025-05-11 22:13:53,292 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-11 22:17:49,342 - GCTV - INFO - Start launch!
+2025-05-11 22:17:56,405 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-11 22:21:53,682 - GCTV - INFO - Start launch!
+2025-05-11 22:22:00,902 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-11 22:25:09,231 - GCTV - INFO - Start launch!
+2025-05-11 22:25:14,961 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-11 22:30:02,804 - GCTV - INFO - Start launch!
+2025-05-11 22:30:10,427 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-11 22:39:53,446 - GCTV - INFO - Start launch!
+2025-05-11 22:40:02,420 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-12 16:09:35,736 - GCTV - INFO - Start launch!
+2025-05-12 16:10:18,970 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-12 16:13:16,134 - GCTV - INFO - Start launch!
+2025-05-12 16:15:58,172 - GCTV - ERROR - Error during launching. Failed to inject GCTV
+2025-05-12 16:18:10,237 - GCTV - INFO - Start launch!
+2025-05-12 16:18:22,266 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-12 16:37:12,149 - GCTV - INFO - Start launch!
+2025-05-12 16:37:21,920 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-12 16:43:36,220 - GCTV - INFO - Start launch!
+2025-05-12 16:43:44,133 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-12 16:49:54,190 - GCTV - INFO - Start launch!
+2025-05-12 16:50:04,500 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-12 16:53:09,314 - GCTV - INFO - Start launch!
+2025-05-12 16:53:18,001 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-12 17:31:55,930 - GCTV - INFO - Start launch!
+2025-05-12 17:32:09,297 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-12 17:49:32,196 - GCTV - INFO - Start launch!
+2025-05-12 17:49:47,609 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-12 17:54:37,582 - GCTV - INFO - Start launch!
+2025-05-12 17:54:49,900 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-12 19:28:49,441 - GCTV - INFO - Start launch!
+2025-05-12 19:31:05,354 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-12 19:32:56,422 - GCTV - INFO - Start launch!
+2025-05-12 19:33:04,685 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-12 20:29:24,583 - GCTV - INFO - Start launch!
+2025-05-12 20:30:57,327 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-12 20:34:30,772 - GCTV - INFO - Start launch!
+2025-05-12 20:34:40,111 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-12 20:39:58,888 - GCTV - INFO - Start launch!
+2025-05-12 20:40:20,854 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-12 20:43:07,734 - GCTV - INFO - Start launch!
+2025-05-12 20:43:24,139 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-12 20:45:25,219 - GCTV - INFO - Start launch!
+2025-05-12 20:45:44,608 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-12 20:52:55,415 - GCTV - INFO - Start launch!
+2025-05-12 20:53:48,646 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-13 22:39:55,523 - GCTV - INFO - The language module was successfully initialized.
+2025-05-13 22:40:11,762 - GCTV - INFO - Start launch!
+2025-05-13 22:40:22,721 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-13 23:16:03,646 - GCTV - INFO - Start launch!
+2025-05-13 23:16:15,460 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-14 07:06:42,076 - GCTV - INFO - The language module was successfully initialized.
+2025-05-14 07:07:12,800 - GCTV - INFO - Start launch!
+2025-05-14 07:07:45,705 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-14 07:43:32,654 - GCTV - INFO - Start launch!
+2025-05-14 07:43:45,411 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-14 14:36:55,178 - GCTV - INFO - The language module was successfully initialized.
+2025-05-14 16:03:21,584 - GCTV - INFO - Start launch!
+2025-05-14 16:03:39,029 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-14 16:09:55,706 - GCTV - INFO - Start launch!
+2025-05-14 16:10:03,645 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-14 16:21:39,055 - GCTV - INFO - Start launch!
+2025-05-14 16:21:45,092 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-14 16:23:42,512 - GCTV - INFO - Start launch!
+2025-05-14 16:23:51,225 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-14 16:33:03,312 - GCTV - INFO - Start launch!
+2025-05-14 16:33:11,411 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-14 16:49:20,089 - GCTV - INFO - Start launch!
+2025-05-14 16:50:01,104 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-14 16:56:25,376 - GCTV - INFO - Start launch!
+2025-05-14 16:56:36,666 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-14 17:00:50,455 - GCTV - INFO - Start launch!
+2025-05-14 17:00:58,088 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-14 17:07:55,649 - GCTV - INFO - Start launch!
+2025-05-14 17:08:04,063 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-14 17:12:03,518 - GCTV - INFO - Start launch!
+2025-05-14 17:12:09,058 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-14 17:15:58,883 - GCTV - INFO - Start launch!
+2025-05-14 17:16:08,469 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-14 17:18:57,743 - GCTV - INFO - Start launch!
+2025-05-14 17:19:05,973 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-14 17:23:09,770 - GCTV - INFO - Start launch!
+2025-05-14 17:23:19,385 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-14 17:30:54,152 - GCTV - INFO - Start launch!
+2025-05-14 17:31:05,010 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-14 18:49:31,306 - GCTV - INFO - Start launch!
+2025-05-14 18:49:43,558 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-14 18:51:36,554 - GCTV - INFO - Start launch!
+2025-05-14 18:51:46,631 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-14 18:53:52,206 - GCTV - INFO - Start launch!
+2025-05-14 18:54:00,482 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-14 18:56:25,626 - GCTV - INFO - Start launch!
+2025-05-14 18:56:34,561 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-14 19:10:21,983 - GCTV - INFO - Start launch!
+2025-05-14 19:10:29,341 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-14 19:14:02,687 - GCTV - INFO - Start launch!
+2025-05-14 19:14:12,085 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-14 19:29:50,259 - GCTV - INFO - Start launch!
+2025-05-14 19:30:00,052 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-14 19:36:37,816 - GCTV - INFO - Start launch!
+2025-05-14 19:36:53,602 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-14 19:45:20,734 - GCTV - INFO - Start launch!
+2025-05-14 19:45:40,284 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-14 19:50:18,157 - GCTV - INFO - Start launch!
+2025-05-14 19:50:27,440 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-14 19:54:30,488 - GCTV - INFO - Start launch!
+2025-05-14 19:54:42,220 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-14 20:04:49,838 - GCTV - INFO - Start launch!
+2025-05-14 20:04:58,064 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-14 20:27:45,892 - GCTV - INFO - Start launch!
+2025-05-14 20:28:02,256 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-15 16:55:57,316 - GCTV - INFO - The language module was successfully initialized.
+2025-05-15 16:56:00,195 - GCTV - INFO - Start launch!
+2025-05-15 16:56:16,866 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-15 17:01:33,480 - GCTV - INFO - Start launch!
+2025-05-15 17:01:39,705 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-15 17:06:41,450 - GCTV - INFO - Start launch!
+2025-05-15 17:06:50,152 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-15 18:05:33,348 - GCTV - INFO - The language module was successfully initialized.
+2025-05-15 18:34:27,294 - GCTV - INFO - Start launch!
+2025-05-15 18:34:28,014 - GCTV - ERROR - Error during launching. Failed to copy Python files to GTAV folder2
+2025-05-15 18:34:28,337 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-15 18:36:32,611 - GCTV - INFO - Start launch!
+2025-05-15 18:36:47,414 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-15 19:08:43,173 - GCTV - INFO - Start launch!
+2025-05-15 19:08:53,652 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-15 19:13:30,297 - GCTV - INFO - Start launch!
+2025-05-15 19:13:43,351 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-15 19:24:11,681 - GCTV - INFO - Start launch!
+2025-05-15 19:24:22,388 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-17 20:02:54,303 - GCTV - INFO - The language module was successfully initialized.
+2025-05-17 20:02:59,996 - GCTV - INFO - Start launch!
+2025-05-17 20:03:54,700 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-17 20:05:41,112 - GCTV - INFO - Start launch!
+2025-05-17 20:05:46,821 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-17 20:08:04,009 - GCTV - INFO - Start launch!
+2025-05-17 20:08:11,044 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-17 20:09:33,949 - GCTV - INFO - Start launch!
+2025-05-17 20:09:37,882 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-17 20:13:51,750 - GCTV - INFO - Start launch!
+2025-05-17 20:13:58,031 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-17 20:21:49,273 - GCTV - INFO - Start launch!
+2025-05-17 20:21:59,151 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-17 20:57:01,842 - GCTV - INFO - The language module was successfully initialized.
+2025-05-17 20:57:04,337 - GCTV - INFO - Start launch!
+2025-05-17 20:57:18,105 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-17 21:50:58,614 - GCTV - INFO - Start launch!
+2025-05-17 21:51:08,144 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-18 07:54:40,500 - GCTV - INFO - The language module was successfully initialized.
+2025-05-18 07:54:42,318 - GCTV - INFO - Start launch!
+2025-05-18 07:54:57,761 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-18 08:00:57,897 - GCTV - INFO - Start launch!
+2025-05-18 08:01:03,377 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-18 08:04:33,363 - GCTV - INFO - Start launch!
+2025-05-18 08:04:39,933 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-18 08:10:43,955 - GCTV - INFO - Start launch!
+2025-05-18 08:10:50,302 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-18 18:22:00,107 - GCTV - INFO - The language module was successfully initialized.
+2025-05-18 19:49:22,834 - GCTV - INFO - Start launch!
+2025-05-18 19:49:39,578 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-18 20:15:07,226 - GCTV - INFO - Start launch!
+2025-05-18 20:15:15,345 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-18 20:27:44,383 - GCTV - INFO - Start launch!
+2025-05-18 20:27:52,758 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-18 20:39:09,516 - GCTV - INFO - Start launch!
+2025-05-18 20:39:16,479 - GCTV - INFO - Dll succesfully injected into GTA5.exe
+2025-05-18 20:43:43,164 - GCTV - INFO - Start launch!
+2025-05-18 20:43:52,230 - GCTV - INFO - Dll succesfully injected into GTA5.exe
