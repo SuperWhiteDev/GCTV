@@ -1,0 +1,128 @@
+[
+    {
+        "Accessories": {
+            "DrawableID": "0.0",
+            "PaletteID": "0.0",
+            "TextureID": "0.0"
+        },
+        "Bags": {
+            "DrawableID": "0.0",
+            "PaletteID": "0.0",
+            "TextureID": "0.0"
+        },
+        "Body_Armors": {
+            "DrawableID": "0.0",
+            "PaletteID": "0.0",
+            "TextureID": "0.0"
+        },
+        "Decals": {
+            "DrawableID": "0.0",
+            "PaletteID": "0.0",
+            "TextureID": "0.0"
+        },
+        "Hair_Styles": {
+            "DrawableID": "0.0",
+            "PaletteID": "0.0",
+            "TextureID": "1.0"
+        },
+        "Hats": {
+            "DrawableID": "0.0",
+            "PaletteID": "0.0",
+            "TextureID": "0.0"
+        },
+        "Legs": {
+            "DrawableID": "13.0",
+            "PaletteID": "0.0",
+            "TextureID": "0.0"
+        },
+        "Masks": {
+            "DrawableID": "0.0",
+            "PaletteID": "0.0",
+            "TextureID": "0.0"
+        },
+        "Shoes": {
+            "DrawableID": "11.0",
+            "PaletteID": "0.0",
+            "TextureID": "0.0"
+        },
+        "Tops": {
+            "DrawableID": "0.0",
+            "PaletteID": "0.0",
+            "TextureID": "0.0"
+        },
+        "Torsos": {
+            "DrawableID": "0.0",
+            "PaletteID": "0.0",
+            "TextureID": "0.0"
+        },
+        "Undershirts": {
+            "DrawableID": "14.0",
+            "PaletteID": "0.0",
+            "TextureID": "0.0"
+        },
+        "name": "Franklin Standart"
+    },
+    {
+        "Accessories": {
+            "DrawableID": "0.0",
+            "PaletteID": "0.0",
+            "TextureID": "0.0"
+        },
+        "Bags": {
+            "DrawableID": "0.0",
+            "PaletteID": "0.0",
+            "TextureID": "0.0"
+        },
+        "Body_Armors": {
+            "DrawableID": "0.0",
+            "PaletteID": "0.0",
+            "TextureID": "0.0"
+        },
+        "Decals": {
+            "DrawableID": "0.0",
+            "PaletteID": "0.0",
+            "TextureID": "0.0"
+        },
+        "Hair_Styles": {
+            "DrawableID": "0.0",
+            "PaletteID": "0.0",
+            "TextureID": "1.0"
+        },
+        "Hats": {
+            "DrawableID": "0.0",
+            "PaletteID": "0.0",
+            "TextureID": "0.0"
+        },
+        "Legs": {
+            "DrawableID": "11.0",
+            "PaletteID": "0.0",
+            "TextureID": "2.0"
+        },
+        "Masks": {
+            "DrawableID": "0.0",
+            "PaletteID": "0.0",
+            "TextureID": "0.0"
+        },
+        "Shoes": {
+            "DrawableID": "8.0",
+            "PaletteID": "0.0",
+            "TextureID": "1.0"
+        },
+        "Tops": {
+            "DrawableID": "8.0",
+            "PaletteID": "0.0",
+            "TextureID": "0.0"
+        },
+        "Torsos": {
+            "DrawableID": "6.0",
+            "PaletteID": "0.0",
+            "TextureID": "15.0"
+        },
+        "Undershirts": {
+            "DrawableID": "14.0",
+            "PaletteID": "0.0",
+            "TextureID": "0.0"
+        },
+        "name": "Franklin Black"
+    }
+]

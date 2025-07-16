@@ -1,0 +1,2 @@
+## C++
+C++ is a powerful and high-performance programming language used for system-level scripting. This section covers how to utilize C++ for scripting in Game Command Terminal V, including details on functions, memory management, and tips for optimal performance.

@@ -1,0 +1,2 @@
+## Lua
+Lua is a lightweight, efficient, and embeddable scripting language. This section provides details on how Lua scripts can be used within the Game Command Terminal V, including supported functions, namespaces, and useful features for extending gameplay.

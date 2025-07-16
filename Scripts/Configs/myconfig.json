@@ -1,0 +1,10 @@
+{
+    "age": "30",
+    "courses": [
+        "Math",
+        "Physics",
+        "Computer Science"
+    ],
+    "is_student": 0,
+    "name": "John Doe"
+}
