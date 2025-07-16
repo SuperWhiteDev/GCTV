@@ -1,5 +1,3 @@
--- controller_input.lua
-
 local ControllerInput = {
     INPUT_NEXT_CAMERA = 0,
     INPUT_LOOK_LR = 1,

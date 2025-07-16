@@ -1,7 +1,7 @@
 const GraphicsBase = require("utils\\Graphics\\graphics_base.js");
 
 globalThis.Graphics = (function() {
-    // Функция для ожидания загрузки графической библиотеки
+    // Function to wait for loading of graphics library
     function isGraphicsLibAvailable() {
         while (!GraphicsBase.isGraphicsLibraryLoaded()) sleep(100)
 
@@ -10,7 +10,7 @@ globalThis.Graphics = (function() {
         return true
     }
 
-    // --- Функция-конструктор для Line ---
+    // --- Constructor function for Line ---
     function Line(x1, y1, x2, y2, r, g, b, alpha, thickness) {
         isGraphicsLibAvailable();
         this.elementId = GraphicsBase.drawLine(x1, y1, x2, y2, r, g, b, alpha, thickness);
@@ -28,7 +28,6 @@ globalThis.Graphics = (function() {
         GraphicsBase.deleteElement(this.elementId);
     };
 
-    // --- Функция-конструктор для Rect ---
     function Rect(x, y, width, height, r, g, b, alpha, rounding) {
         isGraphicsLibAvailable();
         this.elementId = GraphicsBase.drawRect(x, y, width, height, r, g, b, alpha, rounding, 0);
@@ -49,7 +48,6 @@ globalThis.Graphics = (function() {
         GraphicsBase.deleteElement(this.elementId);
     };
 
-    // --- Функция-конструктор для Triangle ---
     function Triangle(x1, y1, x2, y2, x3, y3, r, g, b, alpha) {
         isGraphicsLibAvailable();
         this.elementId = GraphicsBase.drawTriangle(x1, y1, x2, y2, x3, y3, r, g, b, alpha);
@@ -64,7 +62,6 @@ globalThis.Graphics = (function() {
         GraphicsBase.deleteElement(this.elementId);
     };
 
-    // --- Функция-конструктор для Ellipse ---
     function Ellipse(x, y, radiusX, radiusY, r, g, b, alpha, segments) {
         isGraphicsLibAvailable();
         this.elementId = GraphicsBase.drawEllipse(x, y, radiusX, radiusY, r, g, b, alpha, segments);
@@ -85,7 +82,6 @@ globalThis.Graphics = (function() {
         GraphicsBase.deleteElement(this.elementId);
     };
 
-    // --- Функция-конструктор для Text ---
     function Text(text, x, y, font, fontSize, r, g, b, alpha) {
         isGraphicsLibAvailable();
         this.elementId = GraphicsBase.displayText(text, x, y, font, fontSize, r, g, b, alpha);
@@ -106,7 +102,6 @@ globalThis.Graphics = (function() {
         GraphicsBase.deleteElement(this.elementId);
     };
 
-    // --- Функция-конструктор для RectWithBorders ---
     function RectWithBorders(x, y, width, height, red, green, blue, alpha, border_r, border_g, border_b, border_thickness, rounding) {
         isGraphicsLibAvailable();
         this.elementId = GraphicsBase.drawRectWithBorders(x, y, width, height, red, green, blue, alpha,
@@ -122,23 +117,22 @@ globalThis.Graphics = (function() {
     RectWithBorders.prototype.setColor = function(red, green, blue, alpha) {
         GraphicsBase.setElementColor(this.elementId, red, green, blue, alpha);
     };
-    RectWithBorders.prototype.setBordersColor = function(red, green, blue) {
-        // Если API поддерживает изменение цвета границ, реализуйте соответствующий вызов.
+    RectWithBorders.prototype.setBordersColor = function(red, green, blue, alpha) {
+        GraphicsBase.setElementExtra(this.elementId, red, green, blue, alpha, -1, -1, -1);
     };
     RectWithBorders.prototype.setRounding = function(rounding) {
-        // Реализуйте если требуется.
+        GraphicsBase.setElementExtra(this.elementId, -1, -1, -1, -1, rounding, -1, -1);
     };
     RectWithBorders.prototype.setThickness = function(thickness) {
-        // Реализуйте если требуется.
+        GraphicsBase.setElementExtra(this.elementId, -1, -1, -1, -1, -1, thickness, -1);
     };
     RectWithBorders.prototype.setFlags = function(flags) {
-        // Реализуйте если требуется.
+        GraphicsBase.setElementExtra(this.elementId, -1, -1, -1, -1, -1, -1, flags);
     };
     RectWithBorders.prototype.delete = function() {
         GraphicsBase.deleteElement(this.elementId);
     };
 
-    // --- Функция-конструктор для GradientRect ---
     function GradientRect(x, y, width, height,
                           left_bottom_red, left_bottom_green, left_bottom_blue, left_bottom_alpha,
                           left_top_red, left_top_green, left_top_blue, left_top_alpha,
@@ -172,7 +166,6 @@ globalThis.Graphics = (function() {
         GraphicsBase.deleteElement(this.elementId);
     };
 
-    // --- Функция-конструктор для Watermark ---
     function Watermark(text, x, y, width, height, start_r, start_g, start_b, end_r, end_g, end_b, alpha, font, font_size) {
         isGraphicsLibAvailable();
         this.elementId = GraphicsBase.drawWatermark(text, x, y, width, height,
@@ -201,7 +194,6 @@ globalThis.Graphics = (function() {
         GraphicsBase.deleteElement(this.elementId);
     };
 
-    // --- Функция-конструктор для Image ---
     function Image(image_file, x, y, width, height) {
         isGraphicsLibAvailable();
         this.elementId = GraphicsBase.drawImage(image_file, x, y, width, height);
@@ -222,7 +214,6 @@ globalThis.Graphics = (function() {
         GraphicsBase.deleteElement(this.elementId);
     };
 
-    // --- Функция-конструктор для Notification ---
     function Notification(message) {
         isGraphicsLibAvailable();
         GraphicsBase.showNotification(message, 10);
@@ -232,8 +223,6 @@ globalThis.Graphics = (function() {
         GraphicsBase.showNotification(message, duration);
     }
 
-    // Возвращаем объект, содержащий только необходимые конструкторы,
-    // чтобы обращаться к ним можно было через globalThis.Graphics
     return {
         Line: Line,
         Rect: Rect,

@@ -24,10 +24,8 @@ const Graphics = {
     },
 
     drawGradientRect: function(x, y, width, height) {
-        // Получаем дополнительные аргументы начиная с позиции 4.
         var colors = Array.prototype.slice.call(arguments, 4);
     
-        // Эмулируем repeat для строки "number " 16 раз (используем цикл)
         var protoNumbers = "";
         for (var i = 0; i < 16; i++) {
             protoNumbers += "number ";
@@ -35,11 +33,8 @@ const Graphics = {
         
         var prototypeStr = "integer float float float float " + protoNumbers;
     
-        // Формируем массив аргументов для Call:
-        // Первый элемент – имя функции, второй – прототип, затем x, y, width, height и остальные аргументы
         var args = ["DrawGradientRect", prototypeStr, x, y, width, height].concat(colors);
     
-        // Используем apply для передачи массива аргументов
         return Call.apply(null, args);
     },    
 

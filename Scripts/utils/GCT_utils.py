@@ -39,7 +39,7 @@ def Call(dll_name, func_name, return_type, *args):
         return result
     except Exception as e:
         GCT.DisplayError(False, e)
-        return 
+        raise f"Failed to call the {func_name} function"
     
 def array_to_list(array, size, element_type):
     if isinstance(array, ctypes.POINTER(element_type)):

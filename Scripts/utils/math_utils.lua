@@ -1,6 +1,6 @@
-local mathUtils = { }
+local math_utils = { }
 
-function mathUtils.BooleanToNumber(value)
+function math_utils.boolean_to_number(value)
     if type(value) == "boolean" then
         if value then
             return 1
@@ -12,7 +12,7 @@ function mathUtils.BooleanToNumber(value)
     return 0
 end
 
-function mathUtils.pow(base, exponent)
+function math_utils.pow(base, exponent)
     if exponent < 0 then
         return 1 / pow(base, -exponent)
     end
@@ -25,7 +25,7 @@ function mathUtils.pow(base, exponent)
     return result
 end
 
-function mathUtils.SumVectors(vec1, vec2)
+function math_utils.sum_vectors(vec1, vec2)
     return {
         x = vec1.x + vec2.x,
         y = vec1.y + vec2.y,
@@ -33,7 +33,7 @@ function mathUtils.SumVectors(vec1, vec2)
     }
 end
 
-function mathUtils.SubtractVectors(vec1, vec2)
+function math_utils.subtract_vectors(vec1, vec2)
     return {
         x = vec1.x - vec2.x,
         y = vec1.y - vec2.y,
@@ -41,7 +41,7 @@ function mathUtils.SubtractVectors(vec1, vec2)
     }
 end
 
-function mathUtils.MultVector(vec1, num)
+function math_utils.mult_vector(vec1, num)
     return {
         x = vec1.x * num,
         y = vec1.y * num,
@@ -49,14 +49,14 @@ function mathUtils.MultVector(vec1, num)
     }
 end
 
-function mathUtils.GetDistanceBetweenCoords(point1, point2)
+function math_utils.get_distance_between_coords(point1, point2)
     local xDiff = point2.x - point1.x
     local yDiff = point2.y - point1.y
     local zDiff = point2.z - point1.z
 
-    local distance = math.sqrt(mathUtils.pow(xDiff, 2) + mathUtils.pow(yDiff, 2) + mathUtils.pow(zDiff, 2))
+    local distance = math.sqrt(math_utils.pow(xDiff, 2) + math_utils.pow(yDiff, 2) + math_utils.pow(zDiff, 2))
 
     return distance
 end
 
-return mathUtils
+return math_utils

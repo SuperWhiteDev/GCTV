@@ -1,3 +1,10 @@
 {
-    "language": "Russion"
+    "language": "English",
+    "inGameConsole": true,
+    "inGameConsoleIcon": "terminal.ico",
+    "externalConsole": true,
+    "allowDLL": true,
+    "allowLua": true,
+    "allowPython": true,
+    "allowJavaScript": true
 }

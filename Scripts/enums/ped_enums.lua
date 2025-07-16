@@ -39,7 +39,6 @@ local PedRelationship = {
     Like = 2,
     Respect = 1,
     Companion = 0,
-    Pedestrians = 255, -- or neutral
 }
 
 return {

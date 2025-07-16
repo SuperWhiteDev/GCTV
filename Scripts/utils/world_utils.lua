@@ -1,6 +1,13 @@
-local worldUtils = { }
+-- This utility script provides functions for managing aspects of the game world,
+-- such as loading specific map interiors (IPLs) and finding nearby entities.
 
-function worldUtils.InitNorthYankton()
+local world_utils = {} -- Create a table to hold our utility functions.
+
+--- Initializes the North Yankton map region by requesting all necessary IPLs.
+-- This makes the North Yankton area visible and loaded in the game.
+-- Assumes `STREAMING` and `HUD` are global objects from the GTAV API.
+function world_utils.init_north_yankton()
+    -- List of IPLs (Interior Proxy Levels) required for North Yankton.
     local ipls = {
         "plg_01", "prologue01", "prologue01_lod", "prologue01c", "prologue01c_lod", "prologue01d", "prologue01d_lod",
         "prologue01e", "prologue01e_lod", "prologue01f", "prologue01f_lod", "prologue01g", "prologue01h", "prologue01h_lod",
@@ -15,14 +22,20 @@ function worldUtils.InitNorthYankton()
         "plg_occl_00", "prologue_occl", "plg_rd", "prologuerd", "prologuerdb", "prologuerd_lod"
     }
 
+    -- Request each IPL to be loaded.
     for i = 1, #ipls do
         STREAMING.REQUEST_IPL(ipls[i])
     end
 
+    -- Set the minimap to display the prologue (North Yankton) map.
     HUD.SET_MINIMAP_IN_PROLOGUE(true)
 end
 
-function worldUtils.InitCayoPerico()
+--- Initializes the Cayo Perico map region by requesting all necessary IPLs.
+-- This makes the Cayo Perico island visible and loaded in the game.
+-- Assumes `STREAMING` and `HUD` are global objects from the GTAV API.
+function world_utils.init_cayo_perico()
+    -- List of IPLs (Interior Proxy Levels) required for Cayo Perico.
     local ipls = {
         "h4_ch2_mansion_final", "h4_clubposter_keinemusik", "h4_clubposter_moodymann",
         "h4_clubposter_palmstraxx", "h4_islandx_yacht_01", "h4_islandx_yacht_01_int",
@@ -82,52 +95,79 @@ function worldUtils.InitCayoPerico()
         "h4_islandx_terrain_props_06_c"
     }
 
+    -- Request each IPL to be loaded.
     for i = 1, #ipls do
         STREAMING.REQUEST_IPL(ipls[i])
     end
 
+    -- Load global water file (often related to Cayo Perico's unique water).
     STREAMING.LOAD_GLOBAL_WATER_FILE(1)
+    -- Set the minimap to display the island map (Cayo Perico).
     HUD.SET_USE_ISLAND_MAP(true)
 end
 
-function worldUtils.GetNearestVehicleToEntity(entity, radius)
-    local veh = nil
-    local maxNumOfVehs = 1
+--- Gets the nearest vehicle to a specified entity within a given radius.
+-- for low-level memory/array operations.
+-- @param entity number The handle of the entity to search around.
+-- @param radius number The search radius.
+-- @returns number The handle of the nearest vehicle, or 0.0 if no vehicle is found.
+function world_utils.get_nearest_vehicle_to_entity(entity, radius)
+    local nearest_veh = nil
+    local max_num_of_veh = 1 -- We only need the single nearest vehicle.
 
-    local coords = ENTITY.GET_ENTITY_COORDS(entity, true)
-    if VEHICLE.IS_ANY_VEHICLE_NEAR_POINT(coords.x, coords.y, coords.z+0.1, radius) then
-        local array = New(2 + maxNumOfVehs*2)
-        Game.WriteInt(array, maxNumOfVehs)
+    -- Get the coordinates of the reference entity.
+    local entity_coords = ENTITY.GET_ENTITY_COORDS(entity, true)
+    
+    -- Check if any vehicle exists near the specified point.
+    if VEHICLE.IS_ANY_VEHICLE_NEAR_POINT(entity_coords.x, entity_coords.y, entity_coords.z + 0.1, radius) then
+        -- Allocate a memory array to receive vehicle handles.
+        -- Size: 2 ints (header) + max_num_of_veh * 2 ints (for each vehicle handle, assuming 64-bit or two 32-bit parts)
+        local array_ptr = New(2 + max_num_of_veh * 2)
+        Game.WriteInt(array_ptr, max_num_of_veh) -- Write the max number of vehicles to the array header.
 
-        PED.GET_PED_NEARBY_VEHICLES(entity, array)
+        -- Populate the array with nearby vehicle handles.
+        PED.GET_PED_NEARBY_VEHICLES(entity, array_ptr)
 
-        veh = Game.ReadInt(array+8)
+        -- Read the first vehicle handle from the array (offset by 8 bytes for header).
+        nearest_veh = Game.ReadInt(array_ptr + 8)
 
-        Delete(array)
-        return veh
+        Delete(array_ptr) -- Deallocate the memory.
+        return nearest_veh
     else
-        return 0.0
+        return 0.0 -- No vehicle found nearby.
     end
 end
 
-function worldUtils.GetNearestPedToEntity(entity, radius)
-    local ped = nil
-    local maxNumOfPeds = 1
+--- Gets the nearest ped to a specified entity within a given radius.
+-- for low-level memory/array operations.
+-- @param entity number The handle of the entity to search around.
+-- @param radius number The search radius.
+-- @returns number The handle of the nearest ped, or 0.0 if no ped is found.
+function world_utils.get_nearest_ped_to_entity(entity, radius)
+    local nearest_ped = nil
+    local max_num_of_peds = 1 -- We only need the single nearest ped.
 
-    local coords = ENTITY.GET_ENTITY_COORDS(entity, true)
-    if PED.IS_ANY_PED_NEAR_POINT(coords.x, coords.y, coords.z+0.1, radius) then
-        local array = New(2 + maxNumOfPeds*2)
-        Game.WriteInt(array, maxNumOfPeds)
+    -- Get the coordinates of the reference entity.
+    local entity_coords = ENTITY.GET_ENTITY_COORDS(entity, true)
+    
+    -- Check if any ped exists near the specified point.
+    if PED.IS_ANY_PED_NEAR_POINT(entity_coords.x, entity_coords.y, entity_coords.z + 0.1, radius) then
+        -- Allocate a memory array to receive ped handles.
+        -- Size: 2 ints (header) + max_num_of_peds * 2 ints (for each ped handle).
+        local array_ptr = New(2 + max_num_of_peds * 2)
+        Game.WriteInt(array_ptr, max_num_of_peds) -- Write the max number of peds to the array header.
 
-        PED.GET_PED_NEARBY_PEDS(entity, array)
+        -- Populate the array with nearby ped handles.
+        PED.GET_PED_NEARBY_PEDS(entity, array_ptr, -1)
 
-        ped = Game.ReadInt(array+8)
+        -- Read the first ped handle from the array (offset by 8 bytes for header).
+        nearest_ped = Game.ReadInt(array_ptr + 8)
 
-        Delete(array)
-        return ped
+        Game.Delete(array_ptr) -- Deallocate the memory.
+        return nearest_ped
     else
-        return 0.0
+        return 0.0 -- No ped found nearby.
     end
 end
 
-return worldUtils
+return world_utils -- Return the utility table for use in other scripts.

@@ -1,30 +1,30 @@
 local WeatherType = {
-    Unknown = -1,
-    ExtraSunny = 0,
-    Clear = 1,
-    Clouds = 2,
-    Smog = 3,
-    Foggy = 4,
-    Overcast = 5,
-    Rain = 6,
-    Thunder = 7,
-    Clearing = 8,
-    Neutral = 9,
-    Snow = 10,
-    Blizzard = 11,
-    SnowLight = 12,
-    Halloween = 13
+    UNKNOWN = -1,
+    EXTRASUNNY = 0,
+    CLEAR = 1,
+    CLOUDS = 2,
+    SMOG = 3,
+    FOGGY = 4,
+    OVERCAST = 5,
+    RAIN = 6,
+    THUNDER = 7,
+    CLEARING = 8,
+    NEUTRAL = 9,
+    SNOW = 10,
+    BLIZZARD = 11,
+    SNOWLIGHT = 12,
+    HALLOWEEN = 13
 }
 
--- Функция для получения строкового представления типа погоды (опционально)
-function WeatherType.ToString(weatherType)
+function WeatherType.ToString(weather_type)
     for k, v in pairs(WeatherType) do
-        if v == weatherType then
+        if v == weather_type then
             return string.upper(k)
         end
     end
-    return "Unknown"
+    return "UNKNOWN"
 end
+
 
 return {
     WeatherType = WeatherType

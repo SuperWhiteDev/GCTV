@@ -1,3 +1,6 @@
+/// <reference path="../js_typings/gctv.d.ts" />
+/// <reference path="../js_typings/gtav_natives.d.ts" /> 
+
 console.log("=== Script Start ===");
 
 // 1. Print the current time (using the getCurrentTime function)
@@ -30,7 +33,6 @@ var rnd = Math.random();
 console.log("Generated random number: " + rnd);
 
 // 3. Demonstrate string manipulation functions:
-// Assume trimString, toLowerCase, and capitalize are registered and available.
 var originalText = "   ExaMPle STRING FOR ManIPUlatiON   ";
 console.log("Original text: [" + originalText + "]");
 
@@ -59,7 +61,6 @@ if (fileList.length > 0) {
 }
 
 // 5. JSON objects demonstration:
-// Use JSON.stringify and JSON.parse (if available in your Duktape configuration).
 var person = {
     name: capitalized,
     age: Math.floor(20 + Math.random() * 10), // random age between 20 and 30

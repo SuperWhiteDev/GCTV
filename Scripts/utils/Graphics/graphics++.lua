@@ -80,17 +80,17 @@ end
 function RectWithBorders.SetColor(self, red, green, blue, alpha)
     graphics_base.SetElementColor(self.element_id, red, green, blue, alpha)
 end
-function RectWithBorders.SetBordersColor(self, red, green, blue)
-
+function RectWithBorders.SetBordersColor(self, red, green, blue, alpha)
+    graphics_base.SetElementExtra(self.element_id, red, green, blue, alpha, -1, -1, -1)
 end
 function RectWithBorders.SetRounding(self, rounding)
-
+    graphics_base.SetElementExtra(self.element_id, -1, -1, -1, -1, rounding, -1, -1)
 end
 function RectWithBorders.SetThickness(self, thickness)
-    
+    graphics_base.SetElementExtra(self.element_id, -1, -1, -1, -1, -1, thickness, -1)
 end
 function RectWithBorders.SetFlags(self, flags)
-    
+    graphics_base.SetElementExtra(self.element_id, -1, -1, -1, -1, -1, -1, flags)
 end
 function RectWithBorders.Delete(self)
     graphics_base.DeleteElement(self.element_id)
@@ -273,7 +273,6 @@ function Notification.NotificationWithDuration(message, duration)
     graphics_base.ShowNotification(message, duration)
     return self
 end
-
 
 graphics.Line = Line
 graphics.Rect = Rect

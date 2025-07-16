@@ -3,7 +3,7 @@
         "AlwaysCleanPlayer": false,
         "EveryoneIgnore": false,
         "NeverWanted": false,
-        "MobileRadio": true,
+        "MobileRadio": false,
         "LockedRadioStation": ""
     },
     "WeaponOptions": {

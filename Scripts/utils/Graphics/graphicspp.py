@@ -1,19 +1,25 @@
 from time import sleep
-import utils.Graphics.graphics_base as graphics_base
+import GCT
+
 global graphics_base
+
+import utils.Graphics.graphics_base as graphics_base
 
 def IsGraphicsLibAvailable():
     if not graphics_base.IsGraphicsLibraryLoaded():
-        while not graphics_base.IsGraphicsLibraryLoaded():
+        while not graphics_base.IsGraphicsLibraryLoaded() and GCT.IsScriptsStillWorking():
             sleep(0.1)
     
         graphics_base.SetGlobalFontSizeStr("medium")
-    return True
+    if graphics_base.IsGraphicsLibraryLoaded():
+        return True
+    else:
+        return False
 
 class Line:
     def __init__(self, x1, y1, x2, y2, red, green, blue, alpha, thickness):
-        IsGraphicsLibAvailable()
-        self.element_id = graphics_base.DrawLine(x1, y1, x2, y2, red, green, blue, alpha, thickness)
+        if IsGraphicsLibAvailable():
+            self.element_id = graphics_base.DrawLine(x1, y1, x2, y2, red, green, blue, alpha, thickness)
     def __del__(self):
         graphics_base.DeleteElement(self.element_id)
     def set_position(self, x1, y1, x2, y2):
@@ -27,8 +33,8 @@ class Line:
 
 class Rect:
     def __init__(self, x, y, width, height, red, green, blue, alpha, rounding):
-        IsGraphicsLibAvailable()
-        self.element_id = graphics_base.DrawRect(x, y, width, height, red, green, blue, alpha, rounding, 0)
+        if IsGraphicsLibAvailable():
+            self.element_id = graphics_base.DrawRect(x, y, width, height, red, green, blue, alpha, rounding, 0)
     def __del__(self):
         graphics_base.DeleteElement(self.element_id)
     def set_position(self, x1, y1, x2, y2):
@@ -48,8 +54,8 @@ class Rect:
         
 class RectWithBorders:
     def __init__(self, x, y, width, height, red, green, blue, alpha, border_r, border_g, border_b, border_thickness, rounding):
-        IsGraphicsLibAvailable()
-        self.element_id = graphics_base.DrawRectWithBorders(x, y, width, height, red, green, blue, alpha, border_r, border_g, border_b, border_thickness, rounding, 0)
+        if IsGraphicsLibAvailable():
+            self.element_id = graphics_base.DrawRectWithBorders(x, y, width, height, red, green, blue, alpha, border_r, border_g, border_b, border_thickness, rounding, 0)
     def __del__(self):
         graphics_base.DeleteElement(self.element_id)
     def set_position(self, x1, y1, x2, y2):
@@ -61,17 +67,17 @@ class RectWithBorders:
     def set_color(self, red, green, blue, alpha):
         graphics_base.SetElementColor(self.element_id, red, green, blue, alpha)
         
-    def set_borders_color(self, red, green, blue):
-        pass
+    def set_borders_color(self, red, green, blue, alpha):
+        graphics_base.SetElementExtra(self.element_id, red, green, blue, alpha, -1, -1, -1)
 
     def set_rounding(self, rounding):
-        pass
+        graphics_base.SetElementExtra(self.element_id, -1, -1, -1, -1, rounding, -1, -1)
     
     def set_thickness(self, thickness):
-        pass
+        graphics_base.SetElementExtra(self.element_id, -1, -1, -1, -1, -1, thickness, -1)
 
     def set_flags(self, flags):
-        pass
+        graphics_base.SetElementExtra(self.element_id, -1, -1, -1, -1, -1, -1, flags)
 
 class GradientRect:
     def __init__(self, x, y, width, height, 
@@ -79,8 +85,8 @@ class GradientRect:
                  left_top_red, left_top_green, left_top_blue, left_top_alpha, 
                  right_top_red, right_top_green, right_top_blue, right_top_alpha, 
                  right_bottom_red, right_bottom_green, right_bottom_blue, right_bottom_alpha):
-        IsGraphicsLibAvailable()
-        self.element_id = graphics_base.DrawGradientRect(x, y, width, height, 
+        if IsGraphicsLibAvailable():
+            self.element_id = graphics_base.DrawGradientRect(x, y, width, height, 
                                                          left_bottom_red, left_bottom_green, left_bottom_blue, left_bottom_alpha, 
                                                          left_top_red, left_top_green, left_top_blue, left_top_alpha, 
                                                          right_top_red, right_top_green, right_top_blue, right_top_alpha, 
@@ -104,8 +110,8 @@ class GradientRect:
         
 class Triangle:
     def __init__(self, x1, y1, x2, y2, x3, y3, red, green, blue, alpha):
-        IsGraphicsLibAvailable()
-        self.element_id = graphics_base.DrawTriangle(x1, y1, x2, y2, x3, y3, red, green, blue, alpha)
+        if IsGraphicsLibAvailable():
+            self.element_id = graphics_base.DrawTriangle(x1, y1, x2, y2, x3, y3, red, green, blue, alpha)
     def __del__(self):
         graphics_base.DeleteElement(self.element_id)
     def set_position(self, x1, y1, x2, y2, x3, y3):
@@ -116,8 +122,8 @@ class Triangle:
 
 class Ellipse:
     def __init__(self, x, y, radius_x, radius_y, red, green, blue, alpha):
-        IsGraphicsLibAvailable()
-        self.element_id = graphics_base.DrawEllipse(x, y, radius_x, radius_y, red, green, blue, alpha, 30)
+        if IsGraphicsLibAvailable():
+            self.element_id = graphics_base.DrawEllipse(x, y, radius_x, radius_y, red, green, blue, alpha, 30)
     def __del__(self):
         graphics_base.DeleteElement(self.element_id)
     def set_position(self, x, y):
@@ -134,8 +140,8 @@ class Ellipse:
 
 class Text:
     def __init__(self, text, x, y, r, g, b, alpha, font, font_size):
-        IsGraphicsLibAvailable()
-        self.element_id = graphics_base.DisplayText(text, x, y, font, font_size, r, g, b, alpha)
+        if IsGraphicsLibAvailable():
+            self.element_id = graphics_base.DisplayText(text, x, y, font, font_size, r, g, b, alpha)
     def __del__(self):
         graphics_base.DeleteElement(self.element_id)
     def set_position(self, x, y):
@@ -152,8 +158,8 @@ class Text:
 
 class Watermark:
     def __init__(self, text, x, y, width, height, start_r, start_g, start_b, end_r, end_g, end_b, alpha, font, font_size):
-        IsGraphicsLibAvailable()
-        self.element_id = graphics_base.DrawWatermark(text, x, y, width, height, start_r, start_g, start_b, end_r, end_g, end_b, alpha, font, font_size)
+        if IsGraphicsLibAvailable():
+            self.element_id = graphics_base.DrawWatermark(text, x, y, width, height, start_r, start_g, start_b, end_r, end_g, end_b, alpha, font, font_size)
     def __del__(self):
         graphics_base.DeleteElement(self.element_id)
     def set_position(self, x1, y1):
@@ -176,8 +182,8 @@ class Watermark:
 
 class Image:
     def __init__(self, image_file, x, y, width, height):
-        IsGraphicsLibAvailable()
-        self.element_id = graphics_base.DrawImage(image_file, x, y, width, height)
+        if IsGraphicsLibAvailable():
+            self.element_id = graphics_base.DrawImage(image_file, x, y, width, height)
     def __del__(self):
         graphics_base.DeleteElement(self.element_id)
     def set_position(self, x1, y1):
@@ -194,10 +200,10 @@ class Image:
         
 class Notification:
     def __init__(self, message : str) -> None:
-        IsGraphicsLibAvailable()
-        graphics_base.ShowNotification(message, 10)
+        if IsGraphicsLibAvailable():
+            graphics_base.ShowNotification(message, 10)
         
 class NotificationWithDuration:  
     def __init__(self, message : str, duration : int) -> None:
-        IsGraphicsLibAvailable()
-        graphics_base.ShowNotification(message, duration)
+        if IsGraphicsLibAvailable():
+            graphics_base.ShowNotification(message, duration)

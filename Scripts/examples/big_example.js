@@ -1,3 +1,6 @@
+/// <reference path="../js_typings/gctv.d.ts" />
+/// <reference path="../js_typings/gtav_natives.d.ts" /> 
+
 require("utils\\network_utils.js")
 
 function createVehicleNearPlayer(modelName)
@@ -63,7 +66,6 @@ function createVehicleNearPlayer(modelName)
 
             vehicles.push(veh)
         }
-
 
         if (Input.Keyboard.isPressed(Input.Keyboard.stringToKey("H"))) {
             const veh = PED.GET_VEHICLE_PED_IS_IN(PLAYER.PLAYER_PED_ID(), false)

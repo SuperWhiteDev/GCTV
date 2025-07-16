@@ -1,3 +1,6 @@
+/// <reference path="../js_typings/gctv.d.ts" />
+/// <reference path="../js_typings/gtav_natives.d.ts" /> 
+
 //const Graphics = require("utils\\Graphics\\graphics_base.js") 
 const Graphics = require("utils\\Graphics\\graphics++.js")
 

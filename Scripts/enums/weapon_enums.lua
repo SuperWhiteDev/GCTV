@@ -276,18 +276,18 @@ local WeaponComponent = {
 }
 
 local WeaponGroup = {
-    AssaultRifle = 0x39D5C192,
-    Pistol = 0x18D5FA97,
-    Shotgun = 0x33431399,
-    Smg = 0xC6E9A5C5,
-    Throwable = 0x5C4C5883,
-    Melee = 0xD49321D4,
-    Mg = 0x451B04BC,
-    FireExtinguisher = 0xFDBF656C,
-    Special = 0xA27A4F9F,
-    Sniper = 0xB7BBD827,
-    Spillable = 0x5F1BE07C, -- Petrol can
-    Stun = 0x29268262,
+    ASSAULT_RIFLE = 0x39D5C192,
+    PISTOL = 0x18D5FA97,
+    SHOTGUN = 0x33431399,
+    SMG = 0xC6E9A5C5,
+    THROWABLE = 0x5C4C5883,
+    MELEE = 0xD49321D4,
+    MG = 0x451B04BC,
+    FIRE_EXTINGUISHER = 0xFDBF656C,
+    SPECIAL = 0xA27A4F9F,
+    SNIPER = 0xB7BBD827,
+    SPILLABLE = 0x5F1BE07C, -- Petrol can
+    STUN = 0x29268262,
 }
 
 local AmmoType = {

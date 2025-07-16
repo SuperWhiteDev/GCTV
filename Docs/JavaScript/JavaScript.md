@@ -14,6 +14,7 @@ GCTV includes custom functions and namespaces designed for game scripting:
 - **`sleep`** – Allows adding delays in script execution.
 - **`Game`** – Provides access to game-related functions and modifications.
 - **`Input`** – Handles user input and interaction.
+- ...
 
 Additionally, all **native function namespaces** are registered in the JavaScript engine. These namespaces and functions mirror their official definitions, including names and parameter structures. You can find the full list of **GTA V native functions** [here](https://alloc8or.re/gta5/nativedb/).
 
@@ -26,6 +27,8 @@ For details on additional functions available in the GCTV JavaScript engine, ple
 
 By leveraging JavaScript within GCTV, developers can extend gameplay, create custom mechanics, and interact with the game world in powerful ways.
 
+You can also explore the scripts in the `Scripts\features` folder and in `Scripts\examples` to get a better understanding of how everything works and take code templates for yourself
+
 ## Native Functions
 
 To call an in-game native function, you must specify the namespace in which the function resides and use dot notation to access it, passing the required parameters. You can view the full list of native functions [here](https://alloc8or.re/gta5/nativedb/).
@@ -33,12 +36,14 @@ To call an in-game native function, you must specify the namespace in which the 
 Native functions that return custom types such as `Ped`, `Entity`, `Vehicle`, `Object`, and so on, actually return plain numbers. For example, the `Ped` type is simply an identifier corresponding to an element in an array of pointers to the ped structure in the game's memory.
 
 Functions that return a `Vector3` in JavaScript will provide an object with the attributes `x`, `y`, and `z`. For example:
+
 ```js
 var playerCoords = ENTITY.GET_ENTITY_COORDS(PLAYER.PLAYER_PED_ID(), true);
 console.log("Player coords: X = " + playerCoords.x + " Y = " + playerCoords.y + " Z = " + playerCoords.z);
 ```
 
 If you need to pass a Vector3* (a pointer to a Vector3) to a function, you must first create one using Game.NewVector3. For example:
+
 ```js
 const vecPtr = Game.NewVector3({ x: 0.0, y: 0.0, z: 0.0 });
 

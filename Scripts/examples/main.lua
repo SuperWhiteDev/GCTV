@@ -8,7 +8,7 @@ else
     print("This version of GCT is supported by the current script")
 end
 
-if RunScript("C:\\Program Files\\GCT\\Scripts\\mainscipts\\MainLogic.lua") then
+if RunScript("examples\\mainscipts\\main_logic.lua") then
     print("Running main logic script")
 else 
     print("Failed to run script with main logic")

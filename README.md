@@ -25,6 +25,10 @@ The native caller of GCTV is developed by me and it intercepts the execution of 
 
 When injecting GCTV in the game launcher may hang for a while this is due to the fact that the launcher copies all the necessary files to the root folder of Grand Theft Auto V Legacy and when you close the launcher all these files will be automatically deleted if the game is closed, so before closing the launcher close the game or you can not do it then GCTV will inject much faster.
 
+At first GCTV was developed and mainly tested in GTAV Online but after Rockstar added an anti-cheat system to the game GCTV is only supported in story mode. I tried to make it available and for online mode I have not succeeded I would be glad if someone can help me with this.
+
+*Note*: *GCTV has been tested only on the Epic Games version of the game*.
+
 ## Installation
 
 Installation should be done automatically at the first start of `Launcher.exe` you should restart your computer and see if in the system environment variable `PATH` path to the root folder with GCTV, if there is no such path, then add it manually otherwise GCTV will not be able to work.

@@ -1,3 +1,6 @@
+/// <reference path="../js_typings/gctv.d.ts" />
+/// <reference path="../js_typings/gtav_natives.d.ts" /> 
+
 function set_fast_vehicle()
 {
     var modelName = console.input("Enter vehicle model name: ")

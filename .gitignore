@@ -1,0 +1,11 @@
+# Ignore Python cache
+.vs/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+Logs/Graphics++_Enhanced_Logs.txt
+Logs/Graphics++_Logs.txt
+Logs/LauncherLogs.txt
+Logs/Logs.txt
